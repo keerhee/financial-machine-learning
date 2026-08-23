@@ -1,0 +1,3 @@
+group,n,qualified,approved_qualified_TP,rejected_qualified_FN,rejected_unqualified_TN,approved_unqualified_FP
+A,100,80,60,20,20,0
+B,100,80,40,40,20,0

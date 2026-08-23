@@ -1,0 +1,4 @@
+doc,rates,inflation,refund,return,earnings
+d1: Fed raised rates to fight inflation,1,1,0,0,0
+d2: Refund policy allows returns in 30 days,0,0,1,1,0
+d3: Quarterly earnings beat expectations,0,0,0,0,1

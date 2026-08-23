@@ -1,0 +1,4 @@
+schedule,trades,impact_cost,drift_cost,total
+all_at_once,10000 x1,2000.0,0.0,2000.0
+twap,1000 x10,200.0,450.0,650.0
+front_half,2000 x5 then 0,400.0,200.0,600.0

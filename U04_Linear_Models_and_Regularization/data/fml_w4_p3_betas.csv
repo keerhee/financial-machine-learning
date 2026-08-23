@@ -1,0 +1,6 @@
+clue,ols_beta_standardized
+value,0.9
+momentum,0.35
+size,0.1
+quality,-0.6
+lucky_factor,0.05

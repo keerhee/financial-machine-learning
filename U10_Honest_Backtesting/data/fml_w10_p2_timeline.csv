@@ -1,0 +1,11 @@
+day,label_window,class
+1,1-3,train
+2,2-4,train
+3,3-5,PURGE
+4,4-6,PURGE
+5,5-7,TEST
+6,6-8,TEST
+7,7-9,TEST
+8,8-10,EMBARGO
+9,9-11,train
+10,10-12,train

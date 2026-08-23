@@ -1,0 +1,9 @@
+event,primary_side,momentum_pct,barrier_outcome,primary_correct
+E1,LONG,+3.0,+1,1
+E2,LONG,+1.0,-1,0
+E3,SHORT,-2.5,-1,1
+E4,LONG,+2.0,-1,0
+E5,SHORT,-1.0,+1,0
+E6,LONG,+0.5,-1,0
+E7,SHORT,-3.0,-1,1
+E8,LONG,+2.5,+1,1

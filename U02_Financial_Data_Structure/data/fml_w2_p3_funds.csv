@@ -1,0 +1,7 @@
+fund,year1_return_pct,year2_return_pct,status
+A,10,6,alive
+B,8,7,alive
+C,-30,,died end of Y1
+D,12,5,alive
+E,-25,,died end of Y1
+F,9,8,alive

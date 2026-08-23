@@ -1,0 +1,5 @@
+stock,variance,cluster,within_cluster_corr
+KO,1.0,Defensive,0.0
+PEP,1.0,Defensive,0.0
+AAPL,1.0,Tech,0.8
+AMZN,1.0,Tech,0.8

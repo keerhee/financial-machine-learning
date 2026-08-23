@@ -1,0 +1,5 @@
+node,links_to,degree,h0
+A,B;C,2,5.0
+B,A;C,2,0.0
+C,A;B;D,3,0.0
+D,C,1,0.0

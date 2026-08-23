@@ -1,0 +1,23 @@
+# Editable sources stay out — binaries rewrite their whole blob on every save
+*.pptx
+*.pptx.bak
+*.docx
+*.key
+*.mp4
+*.mov
+
+# Answer keys are never published
+*ModelAnswers*
+*Answer_Key*
+*answer_key*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

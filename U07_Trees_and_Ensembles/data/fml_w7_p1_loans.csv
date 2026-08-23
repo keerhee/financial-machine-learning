@@ -1,0 +1,11 @@
+id,income_over_50k,has_card,outcome
+A1,Y,Y,repaid
+A2,Y,N,repaid
+A3,Y,Y,repaid
+A4,Y,N,repaid
+A5,Y,Y,repaid
+A6,N,N,repaid
+A7,N,Y,default
+A8,N,Y,default
+A9,N,N,default
+A10,N,N,default

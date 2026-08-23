@@ -1,0 +1,7 @@
+customer,risk_score,outcome
+R1,2,repaid
+R2,3,repaid
+R3,4,repaid
+R4_outlier_P2_only,7,repaid
+D1,8,defaulted
+D2,9,defaulted

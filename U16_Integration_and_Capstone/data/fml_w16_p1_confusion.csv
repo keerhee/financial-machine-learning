@@ -1,0 +1,7 @@
+item,value
+n,1000
+positives,20
+TP,8
+FP,2
+FN,12
+TN,978

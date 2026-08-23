@@ -1,0 +1,5 @@
+clue,P_clue_given_fraud,P_clue_given_normal
+foreign,0.6,0.05
+midnight,0.5,0.1
+huge amount,0.7,0.1
+PRIOR_fraud,0.01,

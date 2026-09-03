@@ -148,7 +148,7 @@ lives once in `course/` rather than inside any one unit:
 **[`course/FML_Data_Setup_Guide.ipynb`](course/FML_Data_Setup_Guide.ipynb)** —
 [open it in Colab](https://colab.research.google.com/github/keerhee/financial-machine-learning/blob/main/course/FML_Data_Setup_Guide.ipynb)
 
-Run section 0 once, then jump to the section for the unit you are on. Section 6 is a
+Run section 0 once, then jump to the section for the unit you are on. Section 10 is a
 map from lab to section:
 
 | Unit | Lab topic | Run section |
@@ -159,11 +159,22 @@ map from lab to section:
 | 4 | Linear models; index tracking | 3 (b) |
 | 5–8 | Fraud and default classification | 4, or 5 offline |
 | 9 | PCA, denoising, clustering | 3 (b) |
+| 10 | Leakage and multiple testing | 2 |
+| 11 | HRP weights; comparing portfolios | 3 (b) |
+| 12 | Similar sentences; a tiny RAG | 6 |
+| 13 | Q-learning; all-at-once vs sliced execution | 7 |
+| 14 | SHAP-style explanation; fairness across groups | 5 |
+| 15 | Attention forecast; a graph update | 8 |
+| 16 | The capstone pipeline | 9 |
 | any | No internet available | 5 — offline fallback |
 
 Prices come from `yfinance` (free, no signup); the fraud and default sets come from
-Kaggle; and section 5 simulates every one of them if both are blocked. Nothing in the
-notebook needs a paid account.
+Kaggle; and section 5 simulates every one of them if both are blocked. Units 12, 13,
+15 and 16 need no download at all — their data is a few sentences or a few arrays,
+built in the notebook. Nothing needs a paid account.
+
+Sections 0 to 5 keep the numbers the lecture decks cite, so a deck that says "run
+§3 (b)" still means the multi-stock panel.
 
 ---
 

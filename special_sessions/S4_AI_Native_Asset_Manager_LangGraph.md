@@ -38,7 +38,7 @@ import operator
 
 class FirmState(TypedDict):
     ticker: str
-    thesis: str            # filled by researcher
+    thesis: str            # filled by analyst
     order: int             # filled by trader
     risk_ok: bool          # filled by risk agent
     log: Annotated[list, operator.add]   # APPENDS, not overwrites
@@ -128,11 +128,11 @@ When an agent can act, a mistake becomes a real trade. So the human gate must be
 ```python
 app = g.compile(
     checkpointer=MemorySaver(),
-    interrupt_before=['execute'],   # pause before executing the trade
+    interrupt_before=['trader'],    # pause before the order is sized
 )
 
 cfg = {'configurable': {'thread_id': 'demo-1'}}
-app.invoke(start, config=cfg)       # runs, then PAUSES at 'execute'
+app.invoke(start, config=cfg)       # runs, then PAUSES at 'trader'
 # ... a human reviews the proposed trade (and can edit state) ...
 app.invoke(None, config=cfg)        # RESUME after approval
 ```
@@ -189,7 +189,7 @@ g.add_conditional_edges('risk', route,
                         {'analyst': 'analyst', END: END})
 
 app = g.compile(checkpointer=MemorySaver(),
-                interrupt_before=['execute'])
+                interrupt_before=['trader'])
 cfg = {'configurable': {'thread_id': 't1'}}
 app.invoke({'ticker': 'AAA', 'log': []}, config=cfg)   # pauses
 app.invoke(None, config=cfg)                            # resumes after approval

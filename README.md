@@ -4,6 +4,12 @@ Yonsei University · for 3rd- and 4th-year undergraduates, beginners welcome · 
 
 **Browse and download → https://keerhee.github.io/financial-machine-learning/**
 
+Sixteen units, and four optional [special sessions](#special-sessions) beyond them:
+[S1](special_sessions/S1_Recommender_Systems.pdf) and
+[S2](special_sessions/S2_Recommender_Systems_Deep_Learning.pdf) on recommenders,
+[S3](special_sessions/S3_AI_Native_Asset_Manager.pdf) and
+[S4](special_sessions/S4_AI_Native_Asset_Manager_LangGraph.pdf) on the AI-native firm.
+
 From what machine learning is, through the algorithms, to the parts that only matter
 in finance: bars and the CUSUM filter instead of the calendar, the triple barrier
 instead of "will it go up tomorrow", purged cross-validation instead of a naive
@@ -26,11 +32,11 @@ sources are excluded by `.gitignore`.
 
 | Path | Contents |
 |---|---|
-| `U01_ML_and_the_Finance_Problem/` … `U16_Integration_and_Capstone/` | Per unit: the primer, the lecture deck, the problem set, and a `data/` directory with the CSVs its three problems use |
-| `course/` | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
-| `special_sessions/` | Four optional sessions outside the sixteen units, each a deck and a companion note |
-| `exams/` | Midterm and final papers — questions only |
-| `site/` | The GitHub Pages listing page (`index.html`, one file) |
+| [`U01_ML_and_the_Finance_Problem/`](U01_ML_and_the_Finance_Problem/) … [`U16_Integration_and_Capstone/`](U16_Integration_and_Capstone/) | Per unit: the primer, the lecture deck, the problem set, and a `data/` directory with the CSVs its three problems use. Each has a `README` naming the special sessions it leads to |
+| [`course/`](course/) | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
+| [`special_sessions/`](special_sessions/) | Four optional sessions outside the sixteen units, each a deck and a companion note |
+| [`exams/`](exams/) | Midterm and final papers — questions only |
+| [`site/`](site/) | The GitHub Pages listing page (`index.html`, one file) |
 
 Page counts match the source slide counts one for one. GitHub renders both PDFs and
 CSVs in the browser, so nothing needs cloning to read.
@@ -131,6 +137,10 @@ companion note in Markdown, so it reads on GitHub without downloading anything.
 | S2 | [Recommender Systems · Part 2](special_sessions/S2_Recommender_Systems_Deep_Learning.pdf) | 30 | Deep-learning recommenders, from factorization machines as the bridge up to graph- and language-based models. |
 | S3 | [The AI-Native Asset Manager](special_sessions/S3_AI_Native_Asset_Manager.pdf) | 26 | The capstone view: the investment process as a team of cooperating agents — analysts, traders, risk — with humans overseeing. Pulls units 10–15 together. |
 | S4 | [AI-Native Asset Manager · Part 2](special_sessions/S4_AI_Native_Asset_Manager_LangGraph.pdf) | 28 | The implementation half — building that agent firm in LangGraph as an explicit state machine, with checkpointing and human-in-the-loop. |
+
+Each unit's `README` points forward to the sessions that pick it up: unit 9 and unit 12
+lead to S1, unit 8 and unit 15 to S2, units 10, 11, 14 and 15 to S3, and units 12, 13
+and 15 to S4.
 
 S1→S2 and S3→S4 are pairs; the second of each assumes the first. Notes:
 [S1](special_sessions/S1_Recommender_Systems.md) ·

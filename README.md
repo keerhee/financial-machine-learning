@@ -15,9 +15,10 @@ three industrial applications: product recommendation, fraud detection, and an A
 chatbot.
 
 **35 PDFs · 981 slides · 37 practice data files.** A lecture deck and a problem set
-for each of the sixteen units, the syllabus, and both examination papers. **Only
-PDFs, CSVs and Markdown are tracked** — the editable PPTX and DOCX sources are
-excluded by `.gitignore`.
+for each of the sixteen units, the syllabus, both examination papers, and the
+companion Colab notebook the labs run from. **Only PDFs, CSVs, Markdown and the
+notebook are tracked** — the editable PPTX and DOCX sources are excluded by
+`.gitignore`.
 
 ---
 
@@ -26,7 +27,7 @@ excluded by `.gitignore`.
 | Path | Contents |
 |---|---|
 | `U01_ML_and_the_Finance_Problem/` … `U16_Integration_and_Capstone/` | Per unit: the lecture deck, the problem set, and a `data/` directory with the CSVs its three problems use |
-| `course/` | Syllabus and the [curriculum map](course/curriculum_map.md) |
+| `course/` | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
 | `exams/` | Midterm and final papers — questions only |
 | `site/` | The GitHub Pages listing page (`index.html`, one file) |
 
@@ -90,6 +91,33 @@ number in them comes from a worked example in the lectures.
 refuses them by name so they cannot be added by accident. The papers still carry the
 instruction line telling candidates not to turn to the key; that is how the paper
 reads in the examination room.
+
+---
+
+## The lab notebook
+
+Twelve of the sixteen lecture decks send you to the same companion notebook, so it
+lives once in `course/` rather than inside any one unit:
+
+**[`course/FML_Data_Setup_Guide.ipynb`](course/FML_Data_Setup_Guide.ipynb)** —
+[open it in Colab](https://colab.research.google.com/github/keerhee/financial-machine-learning/blob/main/course/FML_Data_Setup_Guide.ipynb)
+
+Run section 0 once, then jump to the section for the unit you are on. Section 6 is a
+map from lab to section:
+
+| Unit | Lab topic | Run section |
+|---|---|---|
+| 1 | Returns and normality; the overfitting demo | 2 |
+| 2 | Dollar bars; CUSUM events | 3 (a) |
+| 3 | Triple-barrier labeling | 3 (b) |
+| 4 | Linear models; index tracking | 3 (b) |
+| 5–8 | Fraud and default classification | 4, or 5 offline |
+| 9 | PCA, denoising, clustering | 3 (b) |
+| any | No internet available | 5 — offline fallback |
+
+Prices come from `yfinance` (free, no signup); the fraud and default sets come from
+Kaggle; and section 5 simulates every one of them if both are blocked. Nothing in the
+notebook needs a paid account.
 
 ---
 

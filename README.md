@@ -14,11 +14,11 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**35 PDFs · 981 slides · 37 practice data files.** A lecture deck and a problem set
-for each of the sixteen units, the syllabus, both examination papers, and the
-companion Colab notebook the labs run from. **Only PDFs, CSVs, Markdown and the
-notebook are tracked** — the editable PPTX and DOCX sources are excluded by
-`.gitignore`.
+**55 PDFs · 1,361 slides · 37 practice data files.** For each of the sixteen units a
+primer, a lecture deck and a problem set; plus the syllabus, both examination papers,
+four special sessions, and the companion Colab notebook the labs run from. **Only
+PDFs, CSVs, Markdown and the notebook are tracked** — the editable PPTX and DOCX
+sources are excluded by `.gitignore`.
 
 ---
 
@@ -26,8 +26,9 @@ notebook are tracked** — the editable PPTX and DOCX sources are excluded by
 
 | Path | Contents |
 |---|---|
-| `U01_ML_and_the_Finance_Problem/` … `U16_Integration_and_Capstone/` | Per unit: the lecture deck, the problem set, and a `data/` directory with the CSVs its three problems use |
+| `U01_ML_and_the_Finance_Problem/` … `U16_Integration_and_Capstone/` | Per unit: the primer, the lecture deck, the problem set, and a `data/` directory with the CSVs its three problems use |
 | `course/` | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
+| `special_sessions/` | Four optional sessions outside the sixteen units, each a deck and a companion note |
 | `exams/` | Midterm and final papers — questions only |
 | `site/` | The GitHub Pages listing page (`index.html`, one file) |
 
@@ -38,9 +39,11 @@ CSVs in the browser, so nothing needs cloning to read.
 
 | Form | Example |
 |---|---|
+| Primer | `U07_Primer_Trees_and_Ensembles.pdf` |
 | Lecture deck | `U07_Lecture_Trees_and_Ensembles.pdf` |
 | Problem set | `U07_ProblemSet_Trees_and_Ensembles.pdf` |
 | Practice data | `U07_Trees_and_Ensembles/data/fml_w7_p1_loans.csv` |
+| Special session | `special_sessions/S3_AI_Native_Asset_Manager.pdf` |
 
 `U07` is unit 7 — the seventh block of material, not the seventh week of term. The
 data files keep their original `w7` naming from when the course was written; unit 7
@@ -91,6 +94,49 @@ number in them comes from a worked example in the lectures.
 refuses them by name so they cannot be added by accident. The papers still carry the
 instruction line telling candidates not to turn to the key; that is how the paper
 reads in the examination room.
+
+---
+
+## Primers — watch before the lecture
+
+Every unit opens with a seventeen-slide primer that assumes nothing. It is where the
+arithmetic goes, so the lecture does not have to stop for it: what a dot product is
+before the support vector machine, what a centroid is before k-means, what
+discounting is before reinforcement learning.
+
+| Unit | Primer | Unit | Primer |
+|---|---|---|---|
+| 1 | What a Model Is | 9 | No Answer Key This Time |
+| 2 | How Data Becomes a Bar | 10 | How to Fool Yourself |
+| 3 | What Are We Predicting? | 11 | Why Two Is Safer Than One |
+| 4 | The Straight Line | 12 | Turning Words Into Numbers |
+| 5 | From a Number to a Verdict | 13 | Learning by Doing |
+| 6 | What Makes a Line Safe | 14 | Correlation Is Not Enough |
+| 7 | Asking the Right Question | 15 | Attention and Neighbours |
+| 8 | One Neuron at a Time | 16 | The Whole Pipeline |
+
+Twenty minutes each. If none of it is new, treat it as revision and skip to the
+lecture.
+
+---
+
+## Special sessions
+
+Four optional sessions that sit outside the sixteen units. Each is a deck with a
+companion note in Markdown, so it reads on GitHub without downloading anything.
+
+| # | Session | Slides | What it covers |
+|---|---|---|---|
+| S1 | [Recommender Systems](special_sessions/S1_Recommender_Systems.pdf) | 23 | The third running app of the course. Content-based and collaborative filtering, matrix factorization — built from cosine similarity (unit 12) and hidden factors (unit 9). |
+| S2 | [Recommender Systems · Part 2](special_sessions/S2_Recommender_Systems_Deep_Learning.pdf) | 30 | Deep-learning recommenders, from factorization machines as the bridge up to graph- and language-based models. |
+| S3 | [The AI-Native Asset Manager](special_sessions/S3_AI_Native_Asset_Manager.pdf) | 26 | The capstone view: the investment process as a team of cooperating agents — analysts, traders, risk — with humans overseeing. Pulls units 10–15 together. |
+| S4 | [AI-Native Asset Manager · Part 2](special_sessions/S4_AI_Native_Asset_Manager_LangGraph.pdf) | 28 | The implementation half — building that agent firm in LangGraph as an explicit state machine, with checkpointing and human-in-the-loop. |
+
+S1→S2 and S3→S4 are pairs; the second of each assumes the first. Notes:
+[S1](special_sessions/S1_Recommender_Systems.md) ·
+[S2](special_sessions/S2_Recommender_Systems_Deep_Learning.md) ·
+[S3](special_sessions/S3_AI_Native_Asset_Manager.md) ·
+[S4](special_sessions/S4_AI_Native_Asset_Manager_LangGraph.md)
 
 ---
 

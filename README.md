@@ -4,7 +4,8 @@ Yonsei University · for 3rd- and 4th-year undergraduates, beginners welcome · 
 
 **Browse and download → https://keerhee.github.io/financial-machine-learning/**
 
-Sixteen units, and four optional [special sessions](#special-sessions) beyond them:
+Sixteen units, four optional [special sessions](#special-sessions) beyond them, and a
+[supplementary package](#supplementary-material) on regression with KOSPI data. The sessions:
 [S1](special_sessions/S1_Recommender_Systems.pdf) and
 [S2](special_sessions/S2_Recommender_Systems_Deep_Learning.pdf) on recommenders,
 [S3](special_sessions/S3_AI_Native_Asset_Manager.pdf) and
@@ -20,9 +21,10 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**55 PDFs · 1,361 slides · 37 practice data files.** For each of the sixteen units a
+**57 PDFs · 1,467 slides · 41 practice data files.** For each of the sixteen units a
 primer, a lecture deck and a problem set; plus the syllabus, both examination papers,
-four special sessions, and the companion Colab notebook the labs run from. **Only
+four special sessions, one supplementary package in English and Korean, and the
+companion Colab notebook the labs run from. **Only
 PDFs, CSVs, Markdown and the notebook are tracked** — the editable PPTX and DOCX
 sources are excluded by `.gitignore`.
 
@@ -35,6 +37,7 @@ sources are excluded by `.gitignore`.
 | [`U01_ML_and_the_Finance_Problem/`](U01_ML_and_the_Finance_Problem/) … [`U16_Integration_and_Capstone/`](U16_Integration_and_Capstone/) | Per unit: the primer, the lecture deck, the problem set, and a `data/` directory with the CSVs its three problems use. Each has a `README` naming the special sessions it leads to |
 | [`course/`](course/) | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
 | [`special_sessions/`](special_sessions/) | Four optional sessions outside the sixteen units, each a deck and a companion note |
+| [`supplementary/`](supplementary/) | Supplementary packages beside the units — a deck with its data and notebook, in English and Korean |
 | [`exams/`](exams/) | Midterm and final papers — questions only |
 | [`site/`](site/) | The GitHub Pages listing page (`index.html`, one file) |
 
@@ -50,6 +53,7 @@ CSVs in the browser, so nothing needs cloning to read.
 | Problem set | `U07_ProblemSet_Trees_and_Ensembles.pdf` |
 | Practice data | `U07_Trees_and_Ensembles/data/fml_w7_p1_loans.csv` |
 | Special session | `special_sessions/S3_AI_Native_Asset_Manager.pdf` |
+| Supplementary package | `supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf` (`_KR` for Korean) |
 
 `U07` is unit 7 — the seventh block of material, not the seventh week of term. The
 data files keep their original `w7` naming from when the course was written; unit 7
@@ -147,6 +151,20 @@ S1→S2 and S3→S4 are pairs; the second of each assumes the first. Notes:
 [S2](special_sessions/S2_Recommender_Systems_Deep_Learning.md) ·
 [S3](special_sessions/S3_AI_Native_Asset_Manager.md) ·
 [S4](special_sessions/S4_AI_Native_Asset_Manager_LangGraph.md)
+
+---
+
+## Supplementary material
+
+Beside the units and the special sessions, self-contained packages that a single lab
+can run on: a deck, its data, and a notebook. Unlike the rest of the repository they
+ship in **Korean as well as English**.
+
+| # | Package | Slides | What it covers |
+|---|---|---|---|
+| SUP01 | [Linear Regression on the KOSPI](supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP01_Linear_Regression_KOSPI_KR.pdf) | 53 | Least squares, gradient descent, metrics, Ridge / Lasso / ElasticNet and polynomial features — then a KOSPI lab (29 indicators, 160 months) that reproduces a 0.95 R² and shows why an honest time split destroys it. Data and notebook in [`supplementary/SUP01_Linear_Regression_KOSPI/`](supplementary/SUP01_Linear_Regression_KOSPI/). Pairs with unit 4 and unit 10. |
+
+Details in [`supplementary/README.md`](supplementary/README.md).
 
 ---
 

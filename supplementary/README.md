@@ -10,7 +10,7 @@ the data and notebook come in both languages too.
 
 | # | Package | Slides | Relates to |
 |---|---|---|---|
-| SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 52 · 53 | U04 Linear Models and Regularization · U10 Honest Backtesting |
+| SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 53 | U04 Linear Models and Regularization · U10 Honest Backtesting |
 
 ## SUP01 · Linear Regression on the KOSPI
 
@@ -21,7 +21,7 @@ Six sections — least squares (normal equation and gradient descent), evaluatio
 and where to measure them, the scikit-learn four-step pattern, Ridge / Lasso / ElasticNet,
 polynomial features, and a KOSPI case lab.
 
-The two languages are no longer identical. The **English deck (52 slides)** is the class
+The two languages are no longer identical. The **English deck (51 slides)** is the class
 edition: its case lab walks the Colab notebook cell by cell — loading, the split and the
 scaler, OLS in four steps, Ridge and Lasso, polynomial features, and one helper that
 compares all six models — and reproduces the notebook's R² of 0.95. The **Korean deck

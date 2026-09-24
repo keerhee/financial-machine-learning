@@ -16,4 +16,4 @@ The problem set works three problems end to end; the CSVs each one needs are in
 
 Part of [Financial Machine Learning](../README.md) — Yonsei University. Every unit is a primer, a lecture and three hands-on problems.
 
-Supplementary: [SUP01 · Linear Regression on the KOSPI](../supplementary/README.md#sup01--linear-regression-on-the-kospi) works the same models on 29 Korean indicators and shows what an honest time split does to them.
+Supplementary: [SUP01 · Linear Regression on the KOSPI](../supplementary/README.md#sup01--linear-regression-on-the-kospi) works the same models on 29 Korean indicators, cell by cell in a Colab notebook.

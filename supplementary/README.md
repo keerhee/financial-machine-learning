@@ -10,26 +10,25 @@ the data and notebook come in both languages too.
 
 | # | Package | Slides | Relates to |
 |---|---|---|---|
-| SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 53 | U04 Linear Models and Regularization · U10 Honest Backtesting |
+| SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 53 | U04 Linear Models and Regularization |
 
 ## SUP01 · Linear Regression on the KOSPI
 
 A one-day regression course built around one data set: 29 Korean macro and market
-indicators, monthly from May 2003 to August 2016, with the KOSPI index as the target.
+indicators with the KOSPI index as the target, 160 rows (May 2003 – August 2016). Each row
+is treated as an independent observation, so the train/test split is a random shuffle.
 
 Six sections — least squares (normal equation and gradient descent), evaluation metrics
 and where to measure them, the scikit-learn four-step pattern, Ridge / Lasso / ElasticNet,
 polynomial features, and a KOSPI case lab.
 
 The two languages are no longer identical. The **English deck (51 slides)** is the class
-edition: its case lab walks the Colab notebook cell by cell — loading, the split and the
-scaler, OLS in four steps, Ridge and Lasso, polynomial features, and one helper that
-compares all six models — and reproduces the notebook's R² of 0.95. The **Korean deck
-(53 slides)** keeps the original case lab, which goes on to show why that number is an
-illusion: a shuffled time series, a swapped `r2_score`, and two collinear bond yields with
-coefficients of −729 and +852. An honest 2014–2016 hold-out sends every model below the
-naive benchmark, and two appendix slides list the corrections made to the original Korean
-deck. The notebook's Part B covers the same ground in either language.
+edition: its case lab walks the Colab notebook cell by cell — loading, the random split and
+the scaler, OLS in four steps, Ridge and Lasso, polynomial features, and one helper that
+compares all six models — and reproduces the notebook's R² of 0.95. A narrated video of the
+English deck is on YouTube: https://youtu.be/P4Eav5W5nCI. The **Korean deck (53 slides)**
+keeps the original case lab with its additional evaluation slides, and two appendix slides
+list the corrections made to the original Korean deck.
 
 Files in [`SUP01_Linear_Regression_KOSPI/`](SUP01_Linear_Regression_KOSPI/):
 
@@ -37,7 +36,7 @@ Files in [`SUP01_Linear_Regression_KOSPI/`](SUP01_Linear_Regression_KOSPI/):
 |---|---|
 | `KOSPI_Index_EN.csv` · `KOSPI_Index_KO.csv` | 160 monthly rows, 29 features + KOSPI (column names in English / Korean) |
 | `KOSPI_Data_Dictionary.csv` · `KOSPI_Data_Dictionary_KO.csv` | Each column's original Korean name, English name, group, frequency, description |
-| `KOSPI_Prediction_EN.ipynb` · `KOSPI_Prediction_KO.ipynb` | Part A reproduces the original lab (random split); Part B works the three pitfalls and the honest split, then tunes α with `TimeSeriesSplit` |
+| `KOSPI_Prediction_EN.ipynb` · `KOSPI_Prediction_KO.ipynb` | Part A (§0–§8) reproduces the original lab on a random 80/20 split — the part the English slides follow; Part B (§9–§12) holds optional extra checks and exercises |
 
 Open the notebook in Colab —
 [English](https://colab.research.google.com/github/keerhee/financial-machine-learning/blob/main/supplementary/SUP01_Linear_Regression_KOSPI/KOSPI_Prediction_EN.ipynb) ·

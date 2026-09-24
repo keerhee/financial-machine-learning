@@ -162,7 +162,7 @@ ship in **Korean as well as English**.
 
 | # | Package | Slides | What it covers |
 |---|---|---|---|
-| SUP01 | [Linear Regression on the KOSPI](supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 53 | Least squares, gradient descent, metrics, Ridge / Lasso / ElasticNet and polynomial features — then a KOSPI lab (29 indicators, 160 months) that walks the Colab notebook cell by cell and reproduces its 0.95 R². The Korean deck and the notebook go on to show why an honest time split destroys it. Data and notebook in [`supplementary/SUP01_Linear_Regression_KOSPI/`](supplementary/SUP01_Linear_Regression_KOSPI/). Pairs with unit 4 and unit 10. |
+| SUP01 | [Linear Regression on the KOSPI](supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 53 | Least squares, gradient descent, metrics, Ridge / Lasso / ElasticNet and polynomial features — then a KOSPI lab (29 indicators, 160 months) that walks the Colab notebook cell by cell and reproduces its 0.95 R² on a random 80/20 split. Data and notebook in [`supplementary/SUP01_Linear_Regression_KOSPI/`](supplementary/SUP01_Linear_Regression_KOSPI/). Pairs with unit 4. |
 
 Details in [`supplementary/README.md`](supplementary/README.md).
 

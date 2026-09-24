@@ -26,7 +26,7 @@ The two languages are no longer identical. The **English deck (51 slides)** is t
 edition: its case lab walks the Colab notebook cell by cell — loading, the random split and
 the scaler, OLS in four steps, Ridge and Lasso, polynomial features, and one helper that
 compares all six models — and reproduces the notebook's R² of 0.95. A narrated video of the
-English deck is on YouTube: https://youtu.be/P4Eav5W5nCI. The **Korean deck (53 slides)**
+English deck is on YouTube: https://youtu.be/XHVZ0tcEqmI. The **Korean deck (53 slides)**
 keeps the original case lab with its additional evaluation slides, and two appendix slides
 list the corrections made to the original Korean deck.
 

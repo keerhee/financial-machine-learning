@@ -36,7 +36,7 @@ Files in [`SUP01_Linear_Regression_KOSPI/`](SUP01_Linear_Regression_KOSPI/):
 |---|---|
 | `KOSPI_Index_EN.csv` · `KOSPI_Index_KO.csv` | 160 monthly rows, 29 features + KOSPI (column names in English / Korean) |
 | `KOSPI_Data_Dictionary.csv` · `KOSPI_Data_Dictionary_KO.csv` | Each column's original Korean name, English name, group, frequency, description |
-| `KOSPI_Prediction_EN.ipynb` · `KOSPI_Prediction_KO.ipynb` | Part A (§0–§8) reproduces the original lab on a random 80/20 split — the part the English slides follow; Part B (§9–§12) holds optional extra checks and exercises |
+| `KOSPI_Prediction_EN.ipynb` · `KOSPI_Prediction_KO.ipynb` | The lab in eight sections (§0–§8): load, random 80/20 split and scaling, OLS, Ridge, Lasso, polynomial features, and one table comparing all six models — the English slides follow it cell by cell |
 
 Open the notebook in Colab —
 [English](https://colab.research.google.com/github/keerhee/financial-machine-learning/blob/main/supplementary/SUP01_Linear_Regression_KOSPI/KOSPI_Prediction_EN.ipynb) ·

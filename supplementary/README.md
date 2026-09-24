@@ -5,12 +5,12 @@ the data and notebook it runs on. They are numbered `SUP01`, `SUP02`, … in the
 they were added, separately from the special sessions `S1`–`S4`.
 
 These are the one place in this repository where material appears in **Korean as well
-as English**: each package ships as a pair, `_EN` and `_KR` carrying the same slides
-and the same numbers, and the data and notebook come in both languages too.
+as English**: each package ships as a pair, `_EN` and `_KR`, with the same numbers, and
+the data and notebook come in both languages too.
 
 | # | Package | Slides | Relates to |
 |---|---|---|---|
-| SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 53 | U04 Linear Models and Regularization · U10 Honest Backtesting |
+| SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 52 · 53 | U04 Linear Models and Regularization · U10 Honest Backtesting |
 
 ## SUP01 · Linear Regression on the KOSPI
 
@@ -19,11 +19,17 @@ indicators, monthly from May 2003 to August 2016, with the KOSPI index as the ta
 
 Six sections — least squares (normal equation and gradient descent), evaluation metrics
 and where to measure them, the scikit-learn four-step pattern, Ridge / Lasso / ElasticNet,
-polynomial features, and a KOSPI case lab. The lab reproduces the original notebook's
-R² of 0.95 and then shows why it is an illusion: a shuffled time series, a swapped
-`r2_score`, and two collinear bond yields with coefficients of −729 and +852. An honest
-2014–2016 hold-out sends every model below the naive benchmark. Two appendix slides list
-the corrections made to the original Korean deck.
+polynomial features, and a KOSPI case lab.
+
+The two languages are no longer identical. The **English deck (52 slides)** is the class
+edition: its case lab walks the Colab notebook cell by cell — loading, the split and the
+scaler, OLS in four steps, Ridge and Lasso, polynomial features, and one helper that
+compares all six models — and reproduces the notebook's R² of 0.95. The **Korean deck
+(53 slides)** keeps the original case lab, which goes on to show why that number is an
+illusion: a shuffled time series, a swapped `r2_score`, and two collinear bond yields with
+coefficients of −729 and +852. An honest 2014–2016 hold-out sends every model below the
+naive benchmark, and two appendix slides list the corrections made to the original Korean
+deck. The notebook's Part B covers the same ground in either language.
 
 Files in [`SUP01_Linear_Regression_KOSPI/`](SUP01_Linear_Regression_KOSPI/):
 

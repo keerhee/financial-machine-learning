@@ -21,7 +21,7 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**57 PDFs · 1,467 slides · 41 practice data files.** For each of the sixteen units a
+**57 PDFs · 1,466 slides · 41 practice data files.** For each of the sixteen units a
 primer, a lecture deck and a problem set; plus the syllabus, both examination papers,
 four special sessions, one supplementary package in English and Korean, and the
 companion Colab notebook the labs run from. **Only
@@ -162,7 +162,7 @@ ship in **Korean as well as English**.
 
 | # | Package | Slides | What it covers |
 |---|---|---|---|
-| SUP01 | [Linear Regression on the KOSPI](supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP01_Linear_Regression_KOSPI_KR.pdf) | 53 | Least squares, gradient descent, metrics, Ridge / Lasso / ElasticNet and polynomial features — then a KOSPI lab (29 indicators, 160 months) that reproduces a 0.95 R² and shows why an honest time split destroys it. Data and notebook in [`supplementary/SUP01_Linear_Regression_KOSPI/`](supplementary/SUP01_Linear_Regression_KOSPI/). Pairs with unit 4 and unit 10. |
+| SUP01 | [Linear Regression on the KOSPI](supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP01_Linear_Regression_KOSPI_KR.pdf) | 52 · 53 | Least squares, gradient descent, metrics, Ridge / Lasso / ElasticNet and polynomial features — then a KOSPI lab (29 indicators, 160 months) that walks the Colab notebook cell by cell and reproduces its 0.95 R². The Korean deck and the notebook go on to show why an honest time split destroys it. Data and notebook in [`supplementary/SUP01_Linear_Regression_KOSPI/`](supplementary/SUP01_Linear_Regression_KOSPI/). Pairs with unit 4 and unit 10. |
 
 Details in [`supplementary/README.md`](supplementary/README.md).
 

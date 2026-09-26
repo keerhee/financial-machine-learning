@@ -61,7 +61,8 @@ gives a mean accuracy of 0.545 against 0.570 for always-up, and the model beats 
 baseline in only 40 splits — monthly direction is close to a coin flip.
 
 Both decks have 65 slides with the same numbers; two appendix slides list the corrections
-made to the original Korean material.
+made to the original Korean material. A narrated video of the English deck — the Week 6
+make-up class — is on YouTube: https://youtu.be/NG0g3SJlDr0.
 
 Files in [`SUP02_Logistic_Regression_KOSPI/`](SUP02_Logistic_Regression_KOSPI/):
 

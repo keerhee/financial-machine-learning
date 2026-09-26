@@ -1,0 +1,31 @@
+﻿original_korean_name,english_name,group,frequency,description
+전경련BSI,FKI BSI,Sentiment,Monthly,"Business Survey Index, Federation of Korean Industries (100 = neutral)"
+주택매매가격,Housing Price Index,Real economy,Monthly,Nationwide housing sale price index
+건설BSI(전망),Construction BSI (Outlook),Sentiment,Monthly,"Construction business survey index, outlook"
+"실업률(계절조정,%)",Unemployment Rate (SA %),Real economy,Monthly,"Seasonally adjusted unemployment rate, %"
+어음부도율,Dishonored Bill Rate,Credit,Monthly,"Share of bills (promissory notes) dishonored, %"
+일별수출액YoY,Daily Exports YoY,Trade,Monthly,"Average daily export value, YoY %"
+내국인출국자수YoY,Outbound Travelers YoY,Real economy,Monthly,"Korean residents departing abroad, YoY %"
+코스피 200 변동성지수,VKOSPI,Market risk,Monthly,KOSPI 200 implied volatility index
+통안채 364일,MSB 364D Yield,Rates,Monthly,"Monetary Stabilization Bond 364-day yield, %"
+공사채 AAA 3년,Public Corp Bond AAA 3Y,Rates,Monthly,"AAA public-corporation bond 3-year yield, %"
+은행채 AAA 3년,Bank Bond AAA 3Y,Rates,Monthly,"AAA bank debenture 3-year yield, %"
+국고채5년 - CD,KTB 5Y - CD,Spreads,Monthly,"Term spread: 5Y Korea Treasury Bond minus CD (91D), %p"
+국고채10년 - 통안채1년,KTB 10Y - MSB 1Y,Spreads,Monthly,"Term spread: 10Y KTB minus 1Y MSB, %p"
+은행채AAA3년 - 국고채3년,Bank AAA 3Y - KTB 3Y,Spreads,Monthly,"Credit spread: bank AAA 3Y minus KTB 3Y, %p"
+회사채AA-3년 - 국고채3년,Corp AA- 3Y - KTB 3Y,Spreads,Monthly,"Credit spread: corporate AA- 3Y minus KTB 3Y, %p"
+내국인출국자수,Outbound Travelers,Real economy,Monthly,"Korean residents departing abroad, persons"
+한국(OECD),OECD Leading Indicator (Korea),Sentiment,Monthly,"OECD leading indicator for Korea, as provided in the source file"
+GDP서비스업,GDP Services,National accounts,Quarterly (repeated monthly),"Services value added growth, %"
+설비투자,Equipment Investment,National accounts,Quarterly (repeated monthly),"Equipment investment growth, %"
+건설투자,Construction Investment,National accounts,Quarterly (repeated monthly),"Construction investment growth, %"
+재화수출,Goods Exports,National accounts,Quarterly (repeated monthly),"Goods exports growth, %"
+내수,Domestic Demand,National accounts,Quarterly (repeated monthly),"Domestic demand growth, %"
+GDP디플레이터,GDP Deflator,National accounts,Quarterly (repeated monthly),"GDP deflator growth, %"
+총저축률,Gross Saving Rate,National accounts,Quarterly (repeated monthly),"Gross saving rate, %"
+총투자율,Gross Investment Rate,National accounts,Quarterly (repeated monthly),"Gross investment rate, %"
+Reuter CRB(EW)상품선물지수,CRB Commodity Futures,Commodities,Monthly,Reuters/CRB equal-weight commodity futures index
+Reuter CRB(EW)에너지지수,CRB Energy,Commodities,Monthly,Reuters/CRB equal-weight energy sub-index
+Reuter CRB(EW)산업지수,CRB Industrials,Commodities,Monthly,Reuters/CRB equal-weight industrials sub-index
+Reuter CRB(EW)귀금속지수,CRB Precious Metals,Commodities,Monthly,Reuters/CRB equal-weight precious-metals sub-index
+코스피지수,KOSPI,Target,Monthly,"KOSPI index, month-end close (target variable)"

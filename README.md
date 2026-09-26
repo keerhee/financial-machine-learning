@@ -5,7 +5,7 @@ Yonsei University · for 3rd- and 4th-year undergraduates, beginners welcome · 
 **Browse and download → https://keerhee.github.io/financial-machine-learning/**
 
 Sixteen units, four optional [special sessions](#special-sessions) beyond them, and a
-[supplementary package](#supplementary-material) on regression with KOSPI data. The sessions:
+[supplementary packages](#supplementary-material) on linear and logistic regression with KOSPI data. The sessions:
 [S1](special_sessions/S1_Recommender_Systems.pdf) and
 [S2](special_sessions/S2_Recommender_Systems_Deep_Learning.pdf) on recommenders,
 [S3](special_sessions/S3_AI_Native_Asset_Manager.pdf) and
@@ -21,9 +21,9 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**57 PDFs · 1,465 slides · 41 practice data files.** For each of the sixteen units a
+**59 PDFs · 1,595 slides · 45 practice data files.** For each of the sixteen units a
 primer, a lecture deck and a problem set; plus the syllabus, both examination papers,
-four special sessions, one supplementary package in English and Korean, and the
+four special sessions, two supplementary packages in English and Korean, and the
 companion Colab notebook the labs run from. **Only
 PDFs, CSVs, Markdown and the notebook are tracked** — the editable PPTX and DOCX
 sources are excluded by `.gitignore`.
@@ -163,6 +163,7 @@ ship in **Korean as well as English**.
 | # | Package | Slides | What it covers |
 |---|---|---|---|
 | SUP01 | [Linear Regression on the KOSPI](supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 53 | Least squares, gradient descent, metrics, Ridge / Lasso / ElasticNet and polynomial features — then a KOSPI lab (29 indicators, 160 months) that walks the Colab notebook cell by cell and reproduces its 0.95 R² on a random 80/20 split. Data and notebook in [`supplementary/SUP01_Linear_Regression_KOSPI/`](supplementary/SUP01_Linear_Regression_KOSPI/). Pairs with unit 4. |
+| SUP02 | [Logistic Regression on the KOSPI](supplementary/SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP02_Logistic_Regression_KOSPI_KR.pdf) | 65 · 65 | Sigmoid, odds and maximum likelihood, the confusion matrix and its metrics, ROC / AUC and precision–recall — then a lab on the same KOSPI data that classifies next month's direction, compares the model with an always-up baseline and repeats the random split 100 times (mean accuracy 0.545 against 0.570). Data and notebook in [`supplementary/SUP02_Logistic_Regression_KOSPI/`](supplementary/SUP02_Logistic_Regression_KOSPI/). Pairs with unit 5. |
 
 Details in [`supplementary/README.md`](supplementary/README.md).
 

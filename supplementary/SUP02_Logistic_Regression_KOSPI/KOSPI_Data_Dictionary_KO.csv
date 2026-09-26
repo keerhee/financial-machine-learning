@@ -1,0 +1,31 @@
+﻿원래_변수명,영문_변수명,그룹,주기,설명
+전경련BSI,FKI BSI,심리지표,월별,전국경제인연합회 기업경기실사지수 (100 = 기준)
+주택매매가격,Housing Price Index,실물경제,월별,전국 주택매매가격지수
+건설BSI(전망),Construction BSI (Outlook),심리지표,월별,"건설 기업경기실사지수, 전망"
+"실업률(계절조정,%)",Unemployment Rate (SA %),실물경제,월별,"계절조정 실업률, %"
+어음부도율,Dishonored Bill Rate,신용,월별,"어음부도율, %"
+일별수출액YoY,Daily Exports YoY,교역,월별,"일평균 수출액 전년동월비, %"
+내국인출국자수YoY,Outbound Travelers YoY,실물경제,월별,"내국인 출국자 수 전년동월비, %"
+코스피 200 변동성지수,VKOSPI,시장위험,월별,코스피200 변동성지수
+통안채 364일,MSB 364D Yield,금리,월별,"통화안정증권 364일물 금리, %"
+공사채 AAA 3년,Public Corp Bond AAA 3Y,금리,월별,"공사채 AAA 3년물 금리, %"
+은행채 AAA 3년,Bank Bond AAA 3Y,금리,월별,"은행채 AAA 3년물 금리, %"
+국고채5년 - CD,KTB 5Y - CD,스프레드,월별,"장단기 스프레드: 국고채 5년 − CD(91일), %p"
+국고채10년 - 통안채1년,KTB 10Y - MSB 1Y,스프레드,월별,"장단기 스프레드: 국고채 10년 − 통안채 1년, %p"
+은행채AAA3년 - 국고채3년,Bank AAA 3Y - KTB 3Y,스프레드,월별,"신용 스프레드: 은행채 AAA 3년 − 국고채 3년, %p"
+회사채AA-3년 - 국고채3년,Corp AA- 3Y - KTB 3Y,스프레드,월별,"신용 스프레드: 회사채 AA− 3년 − 국고채 3년, %p"
+내국인출국자수,Outbound Travelers,실물경제,월별,"내국인 출국자 수, 명"
+한국(OECD),OECD Leading Indicator (Korea),심리지표,월별,OECD 한국 경기선행지표 (원자료 값 그대로)
+GDP서비스업,GDP Services,국민계정,분기 (월별 반복 기재),"서비스업 부가가치 증가율, %"
+설비투자,Equipment Investment,국민계정,분기 (월별 반복 기재),"설비투자 증가율, %"
+건설투자,Construction Investment,국민계정,분기 (월별 반복 기재),"건설투자 증가율, %"
+재화수출,Goods Exports,국민계정,분기 (월별 반복 기재),"재화수출 증가율, %"
+내수,Domestic Demand,국민계정,분기 (월별 반복 기재),"내수 증가율, %"
+GDP디플레이터,GDP Deflator,국민계정,분기 (월별 반복 기재),"GDP 디플레이터 상승률, %"
+총저축률,Gross Saving Rate,국민계정,분기 (월별 반복 기재),"총저축률, %"
+총투자율,Gross Investment Rate,국민계정,분기 (월별 반복 기재),"총투자율, %"
+Reuter CRB(EW)상품선물지수,CRB Commodity Futures,원자재,월별,로이터/CRB 동일가중 상품선물지수
+Reuter CRB(EW)에너지지수,CRB Energy,원자재,월별,로이터/CRB 동일가중 에너지지수
+Reuter CRB(EW)산업지수,CRB Industrials,원자재,월별,로이터/CRB 동일가중 산업원자재지수
+Reuter CRB(EW)귀금속지수,CRB Precious Metals,원자재,월별,로이터/CRB 동일가중 귀금속지수
+코스피지수,KOSPI,목표변수,월별,코스피지수 월말 종가 (목표변수)

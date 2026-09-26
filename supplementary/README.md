@@ -10,7 +10,7 @@ the data and notebook come in both languages too.
 
 | # | Package | Slides | Relates to |
 |---|---|---|---|
-| SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 53 | U04 Linear Models and Regularization |
+| SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 49 | U04 Linear Models and Regularization |
 | SUP02 | [Logistic Regression on the KOSPI](SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](SUP02_Logistic_Regression_KOSPI_KR.pdf) | 65 · 65 | U05 Classification and Anomaly Detection |
 
 ## SUP01 · Linear Regression on the KOSPI
@@ -27,9 +27,10 @@ The two languages are no longer identical. The **English deck (51 slides)** is t
 edition: its case lab walks the Colab notebook cell by cell — loading, the random split and
 the scaler, OLS in four steps, Ridge and Lasso, polynomial features, and one helper that
 compares all six models — and reproduces the notebook's R² of 0.95. A narrated video of the
-English deck is on YouTube: https://youtu.be/cuqP8qWk63M. The **Korean deck (53 slides)**
-keeps the original case lab with its additional evaluation slides, and two appendix slides
-list the corrections made to the original Korean deck.
+English deck is on YouTube: https://youtu.be/cuqP8qWk63M. The **Korean deck (49 slides)**
+keeps the original case lab with two additional pitfall slides — the `r2_score` argument order
+and the collinear bond yields — and two appendix slides list the corrections made to the
+original Korean deck.
 
 Files in [`SUP01_Linear_Regression_KOSPI/`](SUP01_Linear_Regression_KOSPI/):
 

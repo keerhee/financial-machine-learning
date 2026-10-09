@@ -21,8 +21,8 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**59 PDFs · 1,591 slides · 45 practice data files.** For each of the sixteen units a
-primer, a lecture deck and a problem set; plus the syllabus, both examination papers,
+**60 PDFs · 1,624 slides · 45 practice data files.** For each of the sixteen units a
+primer, a lecture deck and a problem set; plus the syllabus, a midterm practice set with its answer key and cheat sheet,
 four special sessions, two supplementary packages in English and Korean, and the
 companion Colab notebook the labs run from. **Only
 PDFs, CSVs, Markdown and the notebook are tracked** — the editable PPTX and DOCX
@@ -38,7 +38,7 @@ sources are excluded by `.gitignore`.
 | [`course/`](course/) | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
 | [`special_sessions/`](special_sessions/) | Four optional sessions outside the sixteen units, each a deck and a companion note |
 | [`supplementary/`](supplementary/) | Supplementary packages beside the units — a deck with its data and notebook, in English and Korean |
-| [`exams/`](exams/) | Midterm and final papers — questions only |
+| [`midterm/`](midterm/) | Midterm practice set (units 1–7, 48 questions), its answer key, and a cheat sheet |
 | [`site/`](site/) | The GitHub Pages listing page (`index.html`, one file) |
 
 Page counts match the source slide counts one for one. GitHub renders both PDFs and
@@ -90,13 +90,21 @@ full table and the rejected pairings are in
 
 ---
 
-## Examinations
+## Midterm practice
 
-Both papers are 40 multiple-choice questions over 90 minutes, 2.5 points each. Every
-number in them comes from a worked example in the lectures.
+A practice set for the midterm, its answer key, and a cheat sheet to review from — all
+in [`midterm/`](midterm/).
 
-| Paper | Covers | File |
-|---|---|---|
+| File | What it is |
+|---|---|
+| [`Midterm_Practice_U01-07.pdf`](midterm/Midterm_Practice_U01-07.pdf) | 48 basic multiple-choice questions on units 1–7, about 50 minutes |
+| [`Midterm_Practice_U01-07_Answer_Key.pdf`](midterm/Midterm_Practice_U01-07_Answer_Key.pdf) | Answer grid, formula sheet, and a worked explanation for every question — why the right option is right and why each other option is wrong |
+| [`Midterm_Cheat_Sheet.pdf`](midterm/Midterm_Cheat_Sheet.pdf) | The rule behind every question, one topic per page: data and splits, the triple barrier, regularisation, precision–recall–F1, logistic regression, SVM, anomaly detection, trees, bagging, boosting, Isolation Forest |
+
+Try the questions before opening the key. The key is published because this is a
+practice set; `.gitignore` still refuses every other answer key by name.
+
+---|---|---|
 | Midterm | Units 1–8 | [`exams/Midterm_Units01-08_40Q.pdf`](exams/Midterm_Units01-08_40Q.pdf) |
 | Final | Units 9–16 | [`exams/Final_Units09-16_40Q.pdf`](exams/Final_Units09-16_40Q.pdf) |
 

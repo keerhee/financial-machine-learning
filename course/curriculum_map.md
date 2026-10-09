@@ -69,7 +69,8 @@ linear models (U3–4), classification (U5–6), trees and neural networks (U7�
 portfolios and language models (U11–12), reinforcement learning, causality and
 fairness (U13–14), the frontier and integration (U15–16).
 
-Answer keys are deliberately absent from this repository.
+The papers themselves are not in this repository. For review, [`midterm/`](../midterm/) holds a
+midterm practice set on units 1–7 with its answer key and a cheat sheet.
 
 ---
 

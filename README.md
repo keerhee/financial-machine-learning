@@ -83,8 +83,8 @@ fourteen weeks. Two weeks carry two units: **week 5** takes the three simple
 classifiers together with the support vector machine, and **week 14** takes
 causality and fairness together with the frontier.
 
-The examination papers fix where the line falls — the midterm covers units 1–8 and
-the final covers units 9–16 — so the split is even, eight units either side. The
+The exam scopes fix where the line falls — the midterm covers units 1–8 and the
+final covers units 9–16 — so the split is even, eight units either side. The
 full table and the rejected pairings are in
 [`course/curriculum_map.md`](course/curriculum_map.md).
 
@@ -103,15 +103,6 @@ in [`midterm/`](midterm/).
 
 Try the questions before opening the key. The key is published because this is a
 practice set; `.gitignore` still refuses every other answer key by name.
-
----|---|---|
-| Midterm | Units 1–8 | [`exams/Midterm_Units01-08_40Q.pdf`](exams/Midterm_Units01-08_40Q.pdf) |
-| Final | Units 9–16 | [`exams/Final_Units09-16_40Q.pdf`](exams/Final_Units09-16_40Q.pdf) |
-
-**Questions only — the answer keys are not in this repository**, and `.gitignore`
-refuses them by name so they cannot be added by accident. The papers still carry the
-instruction line telling candidates not to turn to the key; that is how the paper
-reads in the examination room.
 
 ---
 

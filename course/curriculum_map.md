@@ -7,8 +7,8 @@ and a problem set per unit, 32 decks in all. The semester is sixteen weeks, but
 **week 8 is the midterm and week 16 is the final**, which leaves fourteen weeks to
 teach in. Two weeks therefore carry two units.
 
-The examination papers already fix where the line falls: the midterm covers units
-1–8 and the final covers units 9–16. So the split is even, eight units either side,
+The exam scopes fix where the line falls: the midterm covers units 1–8 and the
+final covers units 9–16. So the split is even, eight units either side,
 and the pairings had to sit inside their own half.
 
 ---
@@ -58,19 +58,15 @@ Bold rows are the two double weeks and the two examination weeks.
 
 ## 3. Examinations
 
-Both papers are 40 multiple-choice questions, 90 minutes, 2.5 points each for 100.
-Every number in them is taken from a worked example in the lectures, so there is no
-arithmetic a student has not already seen.
-
-**Midterm — week 8, units 1–8.** Four parts: foundations and data (U1–2), labels and
+**Midterm — week 8, units 1–8.** Four parts in scope: foundations and data (U1–2), labels and
 linear models (U3–4), classification (U5–6), trees and neural networks (U7–8).
 
-**Final — week 16, units 9–16.** Four parts: structure and honest testing (U9–10),
+**Final — week 16, units 9–16.** Four parts in scope: structure and honest testing (U9–10),
 portfolios and language models (U11–12), reinforcement learning, causality and
 fairness (U13–14), the frontier and integration (U15–16).
 
-The papers themselves are not in this repository. For review, [`midterm/`](../midterm/) holds a
-midterm practice set on units 1–7 with its answer key and a cheat sheet.
+The examination papers are not in this repository. For review, [`midterm/`](../midterm/)
+holds a midterm practice set on units 1–7 with its answer key and a cheat sheet.
 
 ---
 

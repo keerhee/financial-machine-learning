@@ -21,7 +21,7 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**65 PDFs · 1,708 slides · 45 practice data files.** For each of the sixteen units a
+**66 PDFs · 1,729 slides · 45 practice data files.** For each of the sixteen units a
 primer, a lecture deck and a problem set; plus the syllabus, a midterm practice set with its answer key and cheat sheet,
 four special sessions, five supplementary packages in English and Korean, and the
 companion Colab notebook the labs run from. **Only
@@ -165,7 +165,7 @@ ship in **Korean as well as English**.
 | SUP02 | [Logistic Regression on the KOSPI](supplementary/SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP02_Logistic_Regression_KOSPI_KR.pdf) | 58 · 58 | Sigmoid, odds and maximum likelihood, the confusion matrix and its metrics, ROC / AUC and precision–recall — then a lab on the same KOSPI data that classifies next month's direction, compares the model with an always-up baseline and repeats the random split 100 times (mean accuracy 0.545 against 0.570). Data and notebook in [`supplementary/SUP02_Logistic_Regression_KOSPI/`](supplementary/SUP02_Logistic_Regression_KOSPI/). Pairs with unit 5. |
 | SUP03 | [Outlier Detection](supplementary/SUP03_Outlier_Detection_EN.pdf) · [한국어](supplementary/SUP03_Outlier_Detection_KR.pdf) | 30 · 24 | Unsupervised detectors that learn what normal looks like: the One-Class SVM and SVDD (a boundary or hypersphere around normal data), Isolation Forest (outliers isolate in few random splits), the Local Outlier Factor (density relative to neighbours) and autoencoders (outliers reconstruct badly), each with its formula and a scikit-learn example. Pairs with unit 5. |
 | SUP04 | [Meta-Labeling](supplementary/SUP04_Meta_Labeling_EN.pdf) · [한국어](supplementary/SUP04_Meta_Labeling_KR.pdf) | 10 · 13 | Meta-labeling in three stages: stage 1 picks the side and is tuned for recall, stage 2 — a classifier trained on triple-barrier labels — decides whether to trade or pass and raises precision, stage 3 sizes the bet with the Kelly criterion. A trading example: cumulative return 19.7% → 39.6%, maximum drawdown −61.9% → −36.8%. Pairs with unit 3. |
-| SUP05 | [ML Algorithm Family Tree — 한국어](supplementary/SUP05_ML_Algorithm_Family_Tree_KR.pdf) | 21 | A one-deck map of the main algorithm families — supervised (regression and classification), unsupervised (clustering and dimensionality reduction), ensembles (bagging and boosting) and reinforcement learning — each shown with the objective it optimises, from least squares to the Bellman equation. Korean only. An overview across the units. |
+| SUP05 | [ML Algorithm Family Tree](supplementary/SUP05_ML_Algorithm_Family_Tree_EN.pdf) · [한국어](supplementary/SUP05_ML_Algorithm_Family_Tree_KR.pdf) | 21 · 21 | A one-deck map of the main algorithm families — supervised (regression and classification), unsupervised (clustering and dimensionality reduction), ensembles (bagging and boosting) and reinforcement learning — each shown with the objective it optimises, from least squares to the Bellman equation. An overview across the units. |
 
 Details in [`supplementary/README.md`](supplementary/README.md).
 

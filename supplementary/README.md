@@ -5,7 +5,7 @@ the data and notebook it runs on where there is a lab. They are numbered `SUP01`
 they were added, separately from the special sessions `S1`–`S4`.
 
 These are the one place in this repository where material appears in **Korean as well
-as English**: each package ships as a pair, `_EN` and `_KR` (SUP05 is Korean only), and where there is a lab
+as English**: each package ships as a pair, `_EN` and `_KR`, and where there is a lab
 the data and notebook come in both languages too.
 
 | # | Package | Slides | Relates to |
@@ -14,7 +14,7 @@ the data and notebook come in both languages too.
 | SUP02 | [Logistic Regression on the KOSPI](SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](SUP02_Logistic_Regression_KOSPI_KR.pdf) | 58 · 58 | U05 Classification and Anomaly Detection |
 | SUP03 | [Outlier Detection](SUP03_Outlier_Detection_EN.pdf) · [한국어](SUP03_Outlier_Detection_KR.pdf) | 30 · 24 | U05 Classification and Anomaly Detection |
 | SUP04 | [Meta-Labeling](SUP04_Meta_Labeling_EN.pdf) · [한국어](SUP04_Meta_Labeling_KR.pdf) | 10 · 13 | U03 Labeling and Meta-Labeling |
-| SUP05 | [ML Algorithm Family Tree — 한국어](SUP05_ML_Algorithm_Family_Tree_KR.pdf) | 21 | All units — an overview |
+| SUP05 | [ML Algorithm Family Tree](SUP05_ML_Algorithm_Family_Tree_EN.pdf) · [한국어](SUP05_ML_Algorithm_Family_Tree_KR.pdf) | 21 · 21 | All units — an overview |
 
 ## SUP01 · Linear Regression on the KOSPI
 
@@ -142,8 +142,9 @@ learning runs from Q-learning to DQN and PPO, each using the Bellman equation di
 Every family is shown with its objective function, and the deck closes with a table that
 picks a starting algorithm from the data and the goal.
 
-The deck (21 slides) is **Korean only**. The family-tree figures are excerpts from Pooja
-Pawar's "Machine Learning Algorithm Family Tree" infographic, credited in the deck.
+The **Korean deck (21 slides)** is the original; the **English deck (21 slides)** is a translation
+with the same layout and formulas. The family-tree figures are excerpts from Pooja Pawar's
+"Machine Learning Algorithm Family Tree" infographic, credited in the deck.
 
 ## File names
 

@@ -12,7 +12,7 @@ Part I · Foundations — taught in week 3.
 The problem set works three problems end to end; the CSVs each one needs are in
 [`data/`](data/), with a `README` describing how they were made.
 
-Supplementary: [SUP04 · Meta-Labeling](../supplementary/README.md#sup04--meta-labeling) revisits the triple barrier and meta-labeling with a digits example, a trading example and Kelly bet sizing.
+Supplementary: [SUP04 · Meta-Labeling](../supplementary/README.md#sup04--meta-labeling) revisits meta-labeling as three stages — side (recall), trade or pass (precision) and bet size (Kelly).
 
 ---
 

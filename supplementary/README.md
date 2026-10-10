@@ -13,7 +13,7 @@ the data and notebook come in both languages too.
 | SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 49 | U04 Linear Models and Regularization |
 | SUP02 | [Logistic Regression on the KOSPI](SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](SUP02_Logistic_Regression_KOSPI_KR.pdf) | 58 · 58 | U05 Classification and Anomaly Detection |
 | SUP03 | [Outlier Detection](SUP03_Outlier_Detection_EN.pdf) · [한국어](SUP03_Outlier_Detection_KR.pdf) | 29 · 24 | U05 Classification and Anomaly Detection |
-| SUP04 | [Meta-Labeling](SUP04_Meta_Labeling_EN.pdf) · [한국어](SUP04_Meta_Labeling_KR.pdf) | 27 · 13 | U03 Labeling and Meta-Labeling |
+| SUP04 | [Meta-Labeling](SUP04_Meta_Labeling_EN.pdf) · [한국어](SUP04_Meta_Labeling_KR.pdf) | 10 · 13 | U03 Labeling and Meta-Labeling |
 
 ## SUP01 · Linear Regression on the KOSPI
 
@@ -107,21 +107,23 @@ with the Korean labels inside them re-lettered in English and the formulas types
 
 ## SUP04 · Meta-Labeling
 
-Following López de Prado (*Advances in Financial Machine Learning*, chapter 3). Triple-barrier
-labels first — profit-take, stop-loss and time limit, with widths that scale with volatility.
-Then meta-labeling: a primary model sets the side of a bet, and a secondary model learns
-whether that side was right, so it decides whether to bet or pass. The primary model is tuned
-for recall and the secondary model restores precision.
+Following López de Prado (*Advances in Financial Machine Learning*, chapter 3). Meta-labeling
+splits a trade into three decisions, one stage each:
 
-Two examples from the original material: on handwritten digits, false positives fall from
-192 to 35 (accuracy 0.893 → 0.957); in a trading example the out-of-sample cumulative return
-rises from 19.7% to 39.6% while the maximum drawdown shrinks from −61.9% to −36.8%. The deck
-then turns the secondary model's probability into a bet size — calibration and the Kelly
-criterion — and closes with the three library functions that implement it
-(`add_vertical_barrier`, `get_events`, `get_bins`).
+1. **Side decision — recall.** A primary model (any rule or model) picks long or short. It is
+   tuned to miss few opportunities; low precision is acceptable here.
+2. **Trade decision — precision.** Triple-barrier labels (profit-take, stop-loss, time limit)
+   record whether each side made money. A classifier learns that label and outputs the
+   probability that a signal wins; low-probability signals are passed, which raises precision.
+3. **Bet size — Kelly.** The calibrated probability and the barrier odds give the Kelly
+   fraction, f* = (βp − q) / β, which is 2p − 1 for symmetric barriers.
 
-The **English deck (27 slides)** is redrawn around the original figures with the formulas
-typeset; the **Korean deck (13 slides)** is the original lecture deck.
+In a trading example the out-of-sample cumulative return rises from 19.7% to 39.6% and the
+maximum drawdown shrinks from −61.9% to −36.8% — same side on every trade, only the trade
+decision changed.
+
+The **English deck (10 slides)** is a streamlined rewrite around these three stages; the
+**Korean deck (13 slides)** is the original lecture deck.
 
 ## File names
 

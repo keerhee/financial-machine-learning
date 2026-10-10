@@ -71,6 +71,8 @@ the same eight mice as the confusion matrix, and a contrast slide before the 'ca
 terrorist' example shows the opposite case — calling everyone a civilian scores 99% accuracy with
 zero recall. A narrated video of an earlier, fuller edition of the English deck — the Week 6
 make-up class — is on YouTube: https://youtu.be/NG0g3SJlDr0.
+A motion-graphics edition, with every mechanism redrawn and animated, is at
+https://youtu.be/5Iefm89awYw.
 
 Files in [`SUP02_Logistic_Regression_KOSPI/`](SUP02_Logistic_Regression_KOSPI/):
 

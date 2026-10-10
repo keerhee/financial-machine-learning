@@ -110,6 +110,9 @@ Isolation Forest scores in words (neighbourhood radius, reach distance, local de
 versus typical isolation depth). The
 **Korean deck (24 slides)** is the original lecture deck.
 
+Narrated videos of the English deck are on YouTube: the slide edition
+https://youtu.be/wAfLHRxwsE0 and a motion-graphics edition https://youtu.be/8_Radn6bXr4.
+
 ## SUP04 · Meta-Labeling
 
 Following López de Prado (*Advances in Financial Machine Learning*, chapter 3). Meta-labeling
@@ -130,6 +133,9 @@ decision changed.
 The **English deck (10 slides)** is a streamlined rewrite around these three stages; the
 **Korean deck (13 slides)** is the original lecture deck.
 
+Narrated videos of the English deck are on YouTube: the slide edition
+https://youtu.be/RJUzCbwryjM and a motion-graphics edition https://youtu.be/ut9NCVbNeIQ.
+
 ## SUP05 · ML Algorithm Family Tree
 
 A map to read before memorising algorithms: which family an algorithm belongs to, and what
@@ -145,6 +151,9 @@ picks a starting algorithm from the data and the goal.
 The **Korean deck (21 slides)** is the original; the **English deck (21 slides)** is a translation
 with the same layout and formulas. The family-tree figures are excerpts from Pooja Pawar's
 "Machine Learning Algorithm Family Tree" infographic, credited in the deck.
+
+Narrated videos of the English deck are on YouTube: the slide edition
+https://youtu.be/EhjMhHdbwqM and a motion-graphics edition https://youtu.be/SQRzeDB6_Sw.
 
 ## File names
 

@@ -21,7 +21,7 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**64 PDFs · 1,716 slides · 45 practice data files.** For each of the sixteen units a
+**64 PDFs · 1,710 slides · 45 practice data files.** For each of the sixteen units a
 primer, a lecture deck and a problem set; plus the syllabus, a midterm practice set with its answer key and cheat sheet,
 four special sessions, four supplementary packages in English and Korean, and the
 companion Colab notebook the labs run from. **Only
@@ -162,7 +162,7 @@ ship in **Korean as well as English**.
 | # | Package | Slides | What it covers |
 |---|---|---|---|
 | SUP01 | [Linear Regression on the KOSPI](supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 49 | Least squares, gradient descent, metrics, Ridge / Lasso / ElasticNet and polynomial features — then a KOSPI lab (29 indicators, 160 months) that walks the Colab notebook cell by cell and reproduces its 0.95 R² on a random 80/20 split. Data and notebook in [`supplementary/SUP01_Linear_Regression_KOSPI/`](supplementary/SUP01_Linear_Regression_KOSPI/). Pairs with unit 4. |
-| SUP02 | [Logistic Regression on the KOSPI](supplementary/SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP02_Logistic_Regression_KOSPI_KR.pdf) | 64 · 65 | Sigmoid, odds and maximum likelihood, the confusion matrix and its metrics, ROC / AUC and precision–recall — then a lab on the same KOSPI data that classifies next month's direction, compares the model with an always-up baseline and repeats the random split 100 times (mean accuracy 0.545 against 0.570). Data and notebook in [`supplementary/SUP02_Logistic_Regression_KOSPI/`](supplementary/SUP02_Logistic_Regression_KOSPI/). Pairs with unit 5. |
+| SUP02 | [Logistic Regression on the KOSPI](supplementary/SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP02_Logistic_Regression_KOSPI_KR.pdf) | 58 · 65 | Sigmoid, odds and maximum likelihood, the confusion matrix and its metrics, ROC / AUC and precision–recall — then a lab on the same KOSPI data that classifies next month's direction, compares the model with an always-up baseline and repeats the random split 100 times (mean accuracy 0.545 against 0.570). Data and notebook in [`supplementary/SUP02_Logistic_Regression_KOSPI/`](supplementary/SUP02_Logistic_Regression_KOSPI/). Pairs with unit 5. |
 | SUP03 | [Outlier Detection](supplementary/SUP03_Outlier_Detection_EN.pdf) · [한국어](supplementary/SUP03_Outlier_Detection_KR.pdf) | 29 · 24 | Unsupervised detectors that learn what normal looks like: the One-Class SVM and SVDD (a boundary or hypersphere around normal data), Isolation Forest (outliers isolate in few random splits), the Local Outlier Factor (density relative to neighbours) and autoencoders (outliers reconstruct badly), each with its formula and a scikit-learn example. Pairs with unit 5. |
 | SUP04 | [Meta-Labeling](supplementary/SUP04_Meta_Labeling_EN.pdf) · [한국어](supplementary/SUP04_Meta_Labeling_KR.pdf) | 27 · 13 | Triple-barrier labels, then a second model that decides whether to act on the first model's side — high recall first, precision second. A digits example (false positives 192 → 35) and a trading example (cumulative return 19.7% → 39.6%), bet sizing from calibrated probabilities and the Kelly criterion, and the three library functions behind it. Pairs with unit 3. |
 

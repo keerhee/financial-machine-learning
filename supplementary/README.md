@@ -11,7 +11,7 @@ the data and notebook come in both languages too.
 | # | Package | Slides | Relates to |
 |---|---|---|---|
 | SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 49 | U04 Linear Models and Regularization |
-| SUP02 | [Logistic Regression on the KOSPI](SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](SUP02_Logistic_Regression_KOSPI_KR.pdf) | 64 · 65 | U05 Classification and Anomaly Detection |
+| SUP02 | [Logistic Regression on the KOSPI](SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](SUP02_Logistic_Regression_KOSPI_KR.pdf) | 58 · 65 | U05 Classification and Anomaly Detection |
 | SUP03 | [Outlier Detection](SUP03_Outlier_Detection_EN.pdf) · [한국어](SUP03_Outlier_Detection_KR.pdf) | 29 · 24 | U05 Classification and Anomaly Detection |
 | SUP04 | [Meta-Labeling](SUP04_Meta_Labeling_EN.pdf) · [한국어](SUP04_Meta_Labeling_KR.pdf) | 27 · 13 | U03 Labeling and Meta-Labeling |
 
@@ -53,7 +53,7 @@ The classification sequel to SUP01, on the same data. Five sections of theory �
 logistic model (sigmoid, odds and log-odds, maximum likelihood, regularization with `C`),
 the basic setup that turns probabilities into calls, the confusion matrix and its metrics
 (precision, recall, F1, Fβ, sensitivity, specificity), the ROC curve, and AUC with
-precision–recall curves — then two labs: three iris species, and the KOSPI.
+precision–recall curves — then the KOSPI lab (the Korean deck also has an iris lab).
 
 The KOSPI lab labels each month 1 if the index rises the next month and 0 otherwise. Only
 the label looks ahead; the features are that month's 29 indicators and never another
@@ -63,12 +63,14 @@ unscaled L1 regularization, and a single random split. Repeating the 75/25 split
 gives a mean accuracy of 0.545 against 0.570 for always-up, and the model beats that
 baseline in only 40 splits — monthly direction is close to a coin flip.
 
-The English deck (64 slides) is kept simpler than the Korean one (65): maximum likelihood is
-introduced in words only, F1 is the one combined metric (no F2 or Fβ), the four-cell table uses the
-same eight mice as the confusion matrix, and a contrast slide before the 'call everyone a terrorist'
-example shows the opposite case — calling everyone a civilian scores 99% accuracy with zero recall.
-Two appendix slides list the corrections made to the original Korean material. A narrated video of the English deck — the Week 6
-make-up class — is on YouTube: https://youtu.be/NG0g3SJlDr0.
+The English deck (58 slides) is kept at the level of the class and is simpler than the Korean
+one (65): maximum likelihood is introduced in words only, F1 is the one combined metric (no F2 or
+Fβ), the four-cell table uses the same eight mice as the confusion matrix, a contrast slide before
+the 'call everyone a terrorist' example shows the opposite case — calling everyone a civilian scores
+99% accuracy with zero recall — and a confusion matrix worked by hand replaces the scikit-learn labs.
+The Korean deck keeps the fuller material, including two appendix slides that list the corrections
+made to the original Korean deck. A narrated video of an earlier, fuller edition of the English deck
+— the Week 6 make-up class — is on YouTube: https://youtu.be/NG0g3SJlDr0.
 
 Files in [`SUP02_Logistic_Regression_KOSPI/`](SUP02_Logistic_Regression_KOSPI/):
 

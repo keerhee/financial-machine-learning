@@ -12,7 +12,7 @@ the data and notebook come in both languages too.
 |---|---|---|---|
 | SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 49 | U04 Linear Models and Regularization |
 | SUP02 | [Logistic Regression on the KOSPI](SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](SUP02_Logistic_Regression_KOSPI_KR.pdf) | 58 · 58 | U05 Classification and Anomaly Detection |
-| SUP03 | [Outlier Detection](SUP03_Outlier_Detection_EN.pdf) · [한국어](SUP03_Outlier_Detection_KR.pdf) | 29 · 24 | U05 Classification and Anomaly Detection |
+| SUP03 | [Outlier Detection](SUP03_Outlier_Detection_EN.pdf) · [한국어](SUP03_Outlier_Detection_KR.pdf) | 30 · 24 | U05 Classification and Anomaly Detection |
 | SUP04 | [Meta-Labeling](SUP04_Meta_Labeling_EN.pdf) · [한국어](SUP04_Meta_Labeling_KR.pdf) | 10 · 13 | U03 Labeling and Meta-Labeling |
 
 ## SUP01 · Linear Regression on the KOSPI
@@ -101,8 +101,12 @@ the original figures and a scikit-learn example:
 - **Autoencoders** — trained on normal data only, they reconstruct outliers badly; a
   reconstruction error above a cutoff flags them, and an LSTM autoencoder does the same for sequences.
 
-The **English deck (29 slides)** is redrawn in a new layout around the original figures,
-with the Korean labels inside them re-lettered in English and the formulas typeset. The
+The **English deck (30 slides)** is redrawn in a new layout around the original figures,
+with the Korean labels inside them re-lettered in English and the formulas typeset. It reads
+the One-Class SVM objective term by term (a small norm of w and a large ρ both widen the margin
+ρ/‖w‖), notes that SVDD and the One-Class SVM coincide under an RBF kernel, and writes the LOF and
+Isolation Forest scores in words (neighbourhood radius, reach distance, local density; average
+versus typical isolation depth). The
 **Korean deck (24 slides)** is the original lecture deck.
 
 ## SUP04 · Meta-Labeling

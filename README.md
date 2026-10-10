@@ -5,7 +5,7 @@ Yonsei University · for 3rd- and 4th-year undergraduates, beginners welcome · 
 **Browse and download → https://keerhee.github.io/financial-machine-learning/**
 
 Sixteen units, four optional [special sessions](#special-sessions) beyond them, and a
-[supplementary packages](#supplementary-material) on linear and logistic regression with KOSPI data. The sessions:
+[supplementary packages](#supplementary-material) on linear and logistic regression with KOSPI data, outlier detection and meta-labeling. The sessions:
 [S1](special_sessions/S1_Recommender_Systems.pdf) and
 [S2](special_sessions/S2_Recommender_Systems_Deep_Learning.pdf) on recommenders,
 [S3](special_sessions/S3_AI_Native_Asset_Manager.pdf) and
@@ -21,9 +21,9 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**60 PDFs · 1,624 slides · 45 practice data files.** For each of the sixteen units a
+**64 PDFs · 1,717 slides · 45 practice data files.** For each of the sixteen units a
 primer, a lecture deck and a problem set; plus the syllabus, a midterm practice set with its answer key and cheat sheet,
-four special sessions, two supplementary packages in English and Korean, and the
+four special sessions, four supplementary packages in English and Korean, and the
 companion Colab notebook the labs run from. **Only
 PDFs, CSVs, Markdown and the notebook are tracked** — the editable PPTX and DOCX
 sources are excluded by `.gitignore`.
@@ -37,7 +37,7 @@ sources are excluded by `.gitignore`.
 | [`U01_ML_and_the_Finance_Problem/`](U01_ML_and_the_Finance_Problem/) … [`U16_Integration_and_Capstone/`](U16_Integration_and_Capstone/) | Per unit: the primer, the lecture deck, the problem set, and a `data/` directory with the CSVs its three problems use. Each has a `README` naming the special sessions it leads to |
 | [`course/`](course/) | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
 | [`special_sessions/`](special_sessions/) | Four optional sessions outside the sixteen units, each a deck and a companion note |
-| [`supplementary/`](supplementary/) | Supplementary packages beside the units — a deck with its data and notebook, in English and Korean |
+| [`supplementary/`](supplementary/) | Supplementary packages beside the units — a deck (with its data and notebook for the KOSPI labs), in English and Korean |
 | [`midterm/`](midterm/) | Midterm practice set (units 1–7, 48 questions), its answer key, and a cheat sheet |
 | [`site/`](site/) | The GitHub Pages listing page (`index.html`, one file) |
 
@@ -155,14 +155,16 @@ S1→S2 and S3→S4 are pairs; the second of each assumes the first. Notes:
 
 ## Supplementary material
 
-Beside the units and the special sessions, self-contained packages that a single lab
-can run on: a deck, its data, and a notebook. Unlike the rest of the repository they
+Beside the units and the special sessions, self-contained packages: a deck, and for the
+KOSPI labs its data and notebook. Unlike the rest of the repository they
 ship in **Korean as well as English**.
 
 | # | Package | Slides | What it covers |
 |---|---|---|---|
 | SUP01 | [Linear Regression on the KOSPI](supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 49 | Least squares, gradient descent, metrics, Ridge / Lasso / ElasticNet and polynomial features — then a KOSPI lab (29 indicators, 160 months) that walks the Colab notebook cell by cell and reproduces its 0.95 R² on a random 80/20 split. Data and notebook in [`supplementary/SUP01_Linear_Regression_KOSPI/`](supplementary/SUP01_Linear_Regression_KOSPI/). Pairs with unit 4. |
 | SUP02 | [Logistic Regression on the KOSPI](supplementary/SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](supplementary/SUP02_Logistic_Regression_KOSPI_KR.pdf) | 65 · 65 | Sigmoid, odds and maximum likelihood, the confusion matrix and its metrics, ROC / AUC and precision–recall — then a lab on the same KOSPI data that classifies next month's direction, compares the model with an always-up baseline and repeats the random split 100 times (mean accuracy 0.545 against 0.570). Data and notebook in [`supplementary/SUP02_Logistic_Regression_KOSPI/`](supplementary/SUP02_Logistic_Regression_KOSPI/). Pairs with unit 5. |
+| SUP03 | [Outlier Detection](supplementary/SUP03_Outlier_Detection_EN.pdf) · [한국어](supplementary/SUP03_Outlier_Detection_KR.pdf) | 29 · 24 | Unsupervised detectors that learn what normal looks like: the One-Class SVM and SVDD (a boundary or hypersphere around normal data), Isolation Forest (outliers isolate in few random splits), the Local Outlier Factor (density relative to neighbours) and autoencoders (outliers reconstruct badly), each with its formula and a scikit-learn example. Pairs with unit 5. |
+| SUP04 | [Meta-Labeling](supplementary/SUP04_Meta_Labeling_EN.pdf) · [한국어](supplementary/SUP04_Meta_Labeling_KR.pdf) | 27 · 13 | Triple-barrier labels, then a second model that decides whether to act on the first model's side — high recall first, precision second. A digits example (false positives 192 → 35) and a trading example (cumulative return 19.7% → 39.6%), bet sizing from calibrated probabilities and the Kelly criterion, and the three library functions behind it. Pairs with unit 3. |
 
 Details in [`supplementary/README.md`](supplementary/README.md).
 

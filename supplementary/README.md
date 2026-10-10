@@ -1,17 +1,19 @@
 # Supplementary material
 
-Short, self-contained teaching packages that sit beside the sixteen units — a deck plus
-the data and notebook it runs on. They are numbered `SUP01`, `SUP02`, … in the order
+Short, self-contained teaching packages that sit beside the sixteen units — a deck, plus
+the data and notebook it runs on where there is a lab. They are numbered `SUP01`, `SUP02`, … in the order
 they were added, separately from the special sessions `S1`–`S4`.
 
 These are the one place in this repository where material appears in **Korean as well
-as English**: each package ships as a pair, `_EN` and `_KR`, with the same numbers, and
+as English**: each package ships as a pair, `_EN` and `_KR`, and where there is a lab
 the data and notebook come in both languages too.
 
 | # | Package | Slides | Relates to |
 |---|---|---|---|
 | SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 49 | U04 Linear Models and Regularization |
 | SUP02 | [Logistic Regression on the KOSPI](SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](SUP02_Logistic_Regression_KOSPI_KR.pdf) | 65 · 65 | U05 Classification and Anomaly Detection |
+| SUP03 | [Outlier Detection](SUP03_Outlier_Detection_EN.pdf) · [한국어](SUP03_Outlier_Detection_KR.pdf) | 29 · 24 | U05 Classification and Anomaly Detection |
+| SUP04 | [Meta-Labeling](SUP04_Meta_Labeling_EN.pdf) · [한국어](SUP04_Meta_Labeling_KR.pdf) | 27 · 13 | U03 Labeling and Meta-Labeling |
 
 ## SUP01 · Linear Regression on the KOSPI
 
@@ -78,8 +80,47 @@ Open the notebook in Colab —
 [한국어](https://colab.research.google.com/github/keerhee/financial-machine-learning/blob/main/supplementary/SUP02_Logistic_Regression_KOSPI/KOSPI_Logit_KO.ipynb)
 — and upload the matching `KOSPI_Index_*.csv` when the first cell asks for it.
 
+## SUP03 · Outlier Detection
+
+Unsupervised outlier detection — no outlier labels are needed. After a short map of the
+approaches (domain-based EDA, univariate rules such as Tukey fences and z-scores, then
+multivariate models), the deck works through four model families, each with its formula,
+the original figures and a scikit-learn example:
+
+- **One-Class SVM and SVDD** — map the data to a feature space and draw a boundary around
+  the normal observations: a hyperplane as far from the origin as possible, or the smallest
+  hypersphere. The dual multiplier α tells whether a point is inside, on or outside.
+- **Isolation Forest** — random splits on random features isolate an outlier in few steps;
+  the average path length becomes an anomaly score near 1 for outliers and 0.5 for normal points.
+- **Local Outlier Factor** — compares a point's local reachability density with its
+  neighbours'; a LOF well above 1 marks a point that is sparse for its neighbourhood.
+- **Autoencoders** — trained on normal data only, they reconstruct outliers badly; a
+  reconstruction error above a cutoff flags them, and an LSTM autoencoder does the same for sequences.
+
+The **English deck (29 slides)** is redrawn in a new layout around the original figures,
+with the Korean labels inside them re-lettered in English and the formulas typeset. The
+**Korean deck (24 slides)** is the original lecture deck.
+
+## SUP04 · Meta-Labeling
+
+Following López de Prado (*Advances in Financial Machine Learning*, chapter 3). Triple-barrier
+labels first — profit-take, stop-loss and time limit, with widths that scale with volatility.
+Then meta-labeling: a primary model sets the side of a bet, and a secondary model learns
+whether that side was right, so it decides whether to bet or pass. The primary model is tuned
+for recall and the secondary model restores precision.
+
+Two examples from the original material: on handwritten digits, false positives fall from
+192 to 35 (accuracy 0.893 → 0.957); in a trading example the out-of-sample cumulative return
+rises from 19.7% to 39.6% while the maximum drawdown shrinks from −61.9% to −36.8%. The deck
+then turns the secondary model's probability into a bet size — calibration and the Kelly
+criterion — and closes with the three library functions that implement it
+(`add_vertical_barrier`, `get_events`, `get_bins`).
+
+The **English deck (27 slides)** is redrawn around the original figures with the formulas
+typeset; the **Korean deck (13 slides)** is the original lecture deck.
+
 ## File names
 
 `SUP01_Linear_Regression_KOSPI_EN.pdf` — package number, slug, language. The two
-languages of one package share a slug, so they sort next to each other; the data and
-notebook live in a directory with the same slug.
+languages of one package share a slug, so they sort next to each other; where a package
+has data and a notebook, they live in a directory with the same slug.

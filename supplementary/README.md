@@ -64,8 +64,8 @@ gives a mean accuracy of 0.545 against 0.570 for always-up, and the model beats 
 baseline in only 40 splits — monthly direction is close to a coin flip.
 
 The English deck (58 slides) is kept at the level of the class and is simpler than the Korean
-one (65): maximum likelihood is introduced in words only, F1 is the one combined metric (no F2 or
-Fβ), the four-cell table uses the same eight mice as the confusion matrix, a contrast slide before
+one (65): maximum likelihood is shown with its one intuitive formula, coefficients are read on the
+log-odds scale without odds ratios, F1 is the one combined metric (no F2 or Fβ), the four-cell table uses the same eight mice as the confusion matrix, a contrast slide before
 the 'call everyone a terrorist' example shows the opposite case — calling everyone a civilian scores
 99% accuracy with zero recall — and a confusion matrix worked by hand replaces the scikit-learn labs.
 The Korean deck keeps the fuller material, including two appendix slides that list the corrections

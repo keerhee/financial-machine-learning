@@ -38,6 +38,7 @@ sources are excluded by `.gitignore`.
 | [`course/`](course/) | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
 | [`special_sessions/`](special_sessions/) | Four optional sessions outside the sixteen units, each a deck and a companion note |
 | [`supplementary/`](supplementary/) | Supplementary packages beside the units — a deck (with its data and notebook for the KOSPI labs), in English and Korean |
+| [`lecture_sd/`](lecture_sd/) | In-class decks — the short decks used in the face-to-face class (Week 7: classifiers, classification metrics, outlier detection), in English and Korean |
 | [`midterm/`](midterm/) | Midterm practice set (units 1–7, 48 questions), its answer key, and a cheat sheet |
 | [`site/`](site/) | The GitHub Pages listing page (`index.html`, one file) |
 
@@ -54,6 +55,7 @@ CSVs in the browser, so nothing needs cloning to read.
 | Practice data | `U07_Trees_and_Ensembles/data/fml_w7_p1_loans.csv` |
 | Special session | `special_sessions/S3_AI_Native_Asset_Manager.pdf` |
 | Supplementary package | `supplementary/SUP01_Linear_Regression_KOSPI_EN.pdf` (`_KR` for Korean) |
+| In-class deck | `lecture_sd/W07_Classification_Metrics_EN.pdf` (`_KR` for Korean) |
 
 `U07` is unit 7 — the seventh block of material, not the seventh week of term. The
 data files keep their original `w7` naming from when the course was written; unit 7
@@ -152,6 +154,16 @@ S1→S2 and S3→S4 are pairs; the second of each assumes the first. Notes:
 [S4](special_sessions/S4_AI_Native_Asset_Manager_LangGraph.md)
 
 ---
+
+## In-class decks
+
+Short decks used in the face-to-face class (`lecture_sd/`), each in English and Korean. Here `W07` is the teaching week, not a unit number.
+
+| Deck | Week | PDF | Slides |
+|---|---|---|---|
+| Classification Models — The Basics | Week 7 | [EN](lecture_sd/W07_ML_Classifiers_Basics_EN.pdf) · [KR](lecture_sd/W07_ML_Classifiers_Basics_KR.pdf) | 6 |
+| Classification Metrics | Week 7 | [EN](lecture_sd/W07_Classification_Metrics_EN.pdf) · [KR](lecture_sd/W07_Classification_Metrics_KR.pdf) | 5 |
+| Outlier Detection — Fraud and Unusual Transactions | Week 7 | [EN](lecture_sd/W07_Outlier_Detection_EN.pdf) · [KR](lecture_sd/W07_Outlier_Detection_KR.pdf) | 9 |
 
 ## Supplementary material
 

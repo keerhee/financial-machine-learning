@@ -12,7 +12,7 @@ the data and notebook come in both languages too.
 |---|---|---|---|
 | SUP01 | [Linear Regression on the KOSPI](SUP01_Linear_Regression_KOSPI_EN.pdf) · [한국어](SUP01_Linear_Regression_KOSPI_KR.pdf) | 51 · 49 | U04 Linear Models and Regularization |
 | SUP02 | [Logistic Regression on the KOSPI](SUP02_Logistic_Regression_KOSPI_EN.pdf) · [한국어](SUP02_Logistic_Regression_KOSPI_KR.pdf) | 58 · 58 | U05 Classification and Anomaly Detection |
-| SUP03 | [Outlier Detection](SUP03_Outlier_Detection_EN.pdf) · [한국어](SUP03_Outlier_Detection_KR.pdf) | 30 · 24 | U05 Classification and Anomaly Detection |
+| SUP03 | [Anomaly Detection](SUP03_Outlier_Detection_EN.pdf) · [한국어](SUP03_Outlier_Detection_KR.pdf) | 30 · 24 | U05 Classification and Anomaly Detection |
 | SUP04 | [Meta-Labeling](SUP04_Meta_Labeling_EN.pdf) · [한국어](SUP04_Meta_Labeling_KR.pdf) | 10 · 13 | U03 Labeling and Meta-Labeling |
 | SUP05 | [ML Algorithm Family Tree](SUP05_ML_Algorithm_Family_Tree_EN.pdf) · [한국어](SUP05_ML_Algorithm_Family_Tree_KR.pdf) | 21 · 21 | All units — an overview |
 
@@ -87,7 +87,7 @@ Open the notebook in Colab —
 [한국어](https://colab.research.google.com/github/keerhee/financial-machine-learning/blob/main/supplementary/SUP02_Logistic_Regression_KOSPI/KOSPI_Logit_KO.ipynb)
 — and upload the matching `KOSPI_Index_*.csv` when the first cell asks for it.
 
-## SUP03 · Outlier Detection
+## SUP03 · Anomaly Detection
 
 Unsupervised outlier detection — no outlier labels are needed. After a short map of the
 approaches (domain-based EDA, univariate rules such as Tukey fences and z-scores, then

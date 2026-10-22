@@ -38,7 +38,7 @@ sources are excluded by `.gitignore`.
 | [`course/`](course/) | Syllabus, the [curriculum map](course/curriculum_map.md), and the [data setup notebook](course/FML_Data_Setup_Guide.ipynb) the labs use |
 | [`special_sessions/`](special_sessions/) | Four optional sessions outside the sixteen units, each a deck and a companion note |
 | [`supplementary/`](supplementary/) | Supplementary packages beside the units — a deck (with its data and notebook for the KOSPI labs), in English and Korean |
-| [`lecture_sd/`](lecture_sd/) | In-class decks — the short decks used in the face-to-face class (Week 7: classifiers, classification metrics, outlier detection), in English and Korean |
+| [`lecture_sd/`](lecture_sd/) | In-class decks — the short decks used in the face-to-face class (Week 7: classifiers, classification metrics, anomaly detection; Weeks 7–9 cheat sheet), in English and Korean |
 | [`midterm/`](midterm/) | Midterm practice set (units 1–7, 48 questions), its answer key, and a cheat sheet |
 | [`site/`](site/) | The GitHub Pages listing page (`index.html`, one file) |
 
@@ -157,13 +157,14 @@ S1→S2 and S3→S4 are pairs; the second of each assumes the first. Notes:
 
 ## In-class decks
 
-Short decks used in the face-to-face class (`lecture_sd/`), each in English and Korean. Here `W07` is the teaching week, not a unit number.
+Short decks used in the face-to-face class (`lecture_sd/`), each in English and Korean (the Weeks 7–9 cheat sheet is English-only for now). Here `W07` is the teaching week, not a unit number.
 
 | Deck | Week | PDF | Slides |
 |---|---|---|---|
 | Classification Models — The Basics | Week 7 | [EN](lecture_sd/W07_ML_Classifiers_Basics_EN.pdf) · [KR](lecture_sd/W07_ML_Classifiers_Basics_KR.pdf) | 6 |
 | Classification Metrics | Week 7 | [EN](lecture_sd/W07_Classification_Metrics_EN.pdf) · [KR](lecture_sd/W07_Classification_Metrics_KR.pdf) | 5 |
 | Anomaly Detection — Fraud and Unusual Transactions | Week 7 | [EN](lecture_sd/W07_Outlier_Detection_EN.pdf) · [KR](lecture_sd/W07_Outlier_Detection_KR.pdf) | 9 |
+| Trees, Neural Networks and Unsupervised Learning — Cheat Sheet | Weeks 7–9 | [EN](lecture_sd/W09_Cheat_Sheet_W07-W09_EN.pdf) · KR in preparation | 38 |
 
 ## Supplementary material
 

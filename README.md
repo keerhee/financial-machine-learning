@@ -166,6 +166,13 @@ Short decks used in the face-to-face class (`lecture_sd/`), each in English and 
 | Anomaly Detection — Fraud and Unusual Transactions | Week 7 | [EN](lecture_sd/W07_Outlier_Detection_EN.pdf) · [KR](lecture_sd/W07_Outlier_Detection_KR.pdf) | 9 |
 | Trees, Neural Networks and Unsupervised Learning — Cheat Sheet | Weeks 7–9 | [EN](lecture_sd/W09_Cheat_Sheet_W07-W09_EN.pdf) · [KR](lecture_sd/W09_Cheat_Sheet_W07-W09_KR.pdf) | 38 |
 
+**Short videos** — watch on YouTube (not stored in the repository).
+
+| Video | Week | Link | Notes |
+|---|---|---|---|
+| Support Vector Machines in 3D — The Corridor | Week 7 | [YouTube](https://youtu.be/U78ZwRo3fDY) | 80 s · no narration · English captions |
+| Unsupervised Learning in 70 Seconds (Short) | Week 9 | [YouTube](https://youtu.be/7VEey6cOKb4) | 70 s · vertical |
+
 ## Supplementary material
 
 Beside the units and the special sessions, self-contained packages: a deck, and for the

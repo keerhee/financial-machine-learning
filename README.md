@@ -21,8 +21,8 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**66 PDFs · 1,729 slides · 45 practice data files.** For each of the sixteen units a
-primer, a lecture deck and a problem set; plus the syllabus, a midterm practice set with its answer key and cheat sheet,
+**70 PDFs · 1,933 slides · 45 practice data files.** For each of the sixteen units a
+primer, a lecture deck and a problem set; plus the syllabus, a midterm practice set with its answer key and cheat sheet, the final project brief and pre-study,
 four special sessions, five supplementary packages in English and Korean, and the
 companion Colab notebook the labs run from. **Only
 PDFs, CSVs, Markdown and the notebook are tracked** — the editable PPTX and DOCX
@@ -40,6 +40,7 @@ sources are excluded by `.gitignore`.
 | [`supplementary/`](supplementary/) | Supplementary packages beside the units — a deck (with its data and notebook for the KOSPI labs), in English and Korean |
 | [`lecture_sd/`](lecture_sd/) | In-class decks — the short decks used in the face-to-face class (Week 7: classifiers, classification metrics, anomaly detection; Weeks 7–9 cheat sheet), in English and Korean |
 | [`midterm/`](midterm/) | Midterm practice set (units 1–7, 48 questions), its answer key, and a cheat sheet |
+| [`final_project/`](final_project/) | Final project — the brief for the eight team projects and a pre-study to read before choosing one, in English and Korean |
 | [`site/`](site/) | The GitHub Pages listing page (`index.html`, one file) |
 
 Page counts match the source slide counts one for one. GitHub renders both PDFs and
@@ -105,6 +106,17 @@ in [`midterm/`](midterm/).
 
 Try the questions before opening the key. The key is published because this is a
 practice set; `.gitignore` still refuses every other answer key by name.
+
+---
+
+## Final project
+
+A team project, 20% of the course grade — eight projects, one pipeline, from a financial ML model to a multi-agent app. Claude Code builds; the team decides, checks and explains. All in [`final_project/`](final_project/).
+
+| Deck | PDF | Slides |
+|---|---|---|
+| Final Project Brief — the eight projects, milestones, grading and how to build with Claude Code | [EN](final_project/Final_Project_Brief_EN.pdf) · [KR](final_project/Final_Project_Brief_KR.pdf) | 59 |
+| Eight Problems, One Pipeline — pre-study: for each problem, the classical method, what machine learning adds, and the trap that can erase the gain | [EN](final_project/Final_Project_PreStudy_EN.pdf) · [KR](final_project/Final_Project_PreStudy_KR.pdf) | 43 |
 
 ---
 

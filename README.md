@@ -21,7 +21,7 @@ Financial Machine Learning*, and *Causal Factor Investing* — and carried throu
 three industrial applications: product recommendation, fraud detection, and an AI
 chatbot.
 
-**70 PDFs · 1,933 slides · 45 practice data files.** For each of the sixteen units a
+**70 PDFs · 1,944 slides · 45 practice data files.** For each of the sixteen units a
 primer, a lecture deck and a problem set; plus the syllabus, a midterm practice set with its answer key and cheat sheet, the final project brief and pre-study,
 four special sessions, five supplementary packages in English and Korean, and the
 companion Colab notebook the labs run from. **Only

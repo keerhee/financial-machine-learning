@@ -6,7 +6,7 @@ Part III · Financial ML in Depth — taught in week 10.
 |---|---|
 | Primer — [`U10_Primer_Honest_Backtesting.pdf`](U10_Primer_Honest_Backtesting.pdf) | 17 |
 | Lecture — [`U10_Lecture_Honest_Backtesting.pdf`](U10_Lecture_Honest_Backtesting.pdf) | 38 |
-| Problem set — [`U10_ProblemSet_Honest_Backtesting.pdf`](U10_ProblemSet_Honest_Backtesting.pdf) | 22 |
+| Problem set — [`U10_ProblemSet_Honest_Backtesting.pdf`](U10_ProblemSet_Honest_Backtesting.pdf) | 33 |
 | Practice data — [`data/`](data/) | 3 CSV |
 
 The problem set works three problems end to end; the CSVs each one needs are in

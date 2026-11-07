@@ -178,7 +178,6 @@ Decks used in the face-to-face class (`lecture_sd/`), each in English and Korean
 | Anomaly Detection — Fraud and Unusual Transactions | Week 7 | [EN](lecture_sd/W07_Outlier_Detection_EN.pdf) · [KR](lecture_sd/W07_Outlier_Detection_KR.pdf) | 9 |
 | SVM — Distance and Margin Width | Week 7 | [EN](lecture_sd/W07_SVM_Distance_Margin_EN.pdf) · [KR](lecture_sd/W07_SVM_Distance_Margin_KR.pdf) | 15 |
 | SVM — Margin and Objective | Week 7 | [EN](lecture_sd/W07_SVM_Margin_Objective_EN.pdf) · [KR](lecture_sd/W07_SVM_Margin_Objective_KR.pdf) | 18 |
-| Decision Trees and Ensembles | Week 7 | [EN](lecture_sd/W07_Decision_Trees_and_Ensembles_EN.pdf) · [KR](lecture_sd/W07_Decision_Trees_and_Ensembles_KR.pdf) | 149 |
 | Advanced Tree Models | Week 7 | [EN](lecture_sd/W07_Advanced_Tree_Models_EN.pdf) · [KR](lecture_sd/W07_Advanced_Tree_Models_KR.pdf) | 86 |
 | Neural Network Foundations | Week 8 | [EN](lecture_sd/W08_Neural_Network_Foundations_EN.pdf) · [KR](lecture_sd/W08_Neural_Network_Foundations_KR.pdf) | 35 |
 | Trees, Neural Networks and Unsupervised Learning — Cheat Sheet | Weeks 7–9 | [EN](lecture_sd/W09_Cheat_Sheet_W07-W09_EN.pdf) · [KR](lecture_sd/W09_Cheat_Sheet_W07-W09_KR.pdf) | 38 |

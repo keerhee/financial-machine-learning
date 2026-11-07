@@ -14,6 +14,8 @@ Decks used in the face-to-face class, each in English and Korean. `W07` is the t
 | Advanced Gradient Boosting | Week 7 | [EN](W07_Advanced_Gradient_Boosting_EN.pdf) · [KR](W07_Advanced_Gradient_Boosting_KR.pdf) | 86 |
 | Neural Network Foundations | Week 8 | [EN](W08_Neural_Network_Foundations_EN.pdf) · [KR](W08_Neural_Network_Foundations_KR.pdf) | 35 |
 | Trees, Neural Networks and Unsupervised Learning — Cheat Sheet | Weeks 7–9 | [EN](W09_Cheat_Sheet_W07-W09_EN.pdf) · [KR](W09_Cheat_Sheet_W07-W09_KR.pdf) | 38 |
+| Honest Backtesting | Week 10 | [EN](W10_Honest_Backtesting_EN.pdf) · [KR](W10_Honest_Backtesting_KR.pdf) | 21 |
+| Honest Backtesting — Workbook | Week 10 | [EN](W10_Honest_Backtesting_Workbook_EN.pdf) · [KR](W10_Honest_Backtesting_Workbook_KR.pdf) | 5 |
 | Honest Backtesting (Extended) | Week 10 | [EN](W10_Honest_Backtesting_Extended_EN.pdf) · [KR](W10_Honest_Backtesting_Extended_KR.pdf) | 34 |
 | Honest Backtesting (Extended) — Workbook | Week 10 | [EN](W10_Honest_Backtesting_Workbook_Extended_EN.pdf) · [KR](W10_Honest_Backtesting_Workbook_Extended_KR.pdf) | 9 |
 | Meta-Labeling | Week 10 | [EN](W10_Meta_Labeling_EN.pdf) · [KR](W10_Meta_Labeling_KR.pdf) | 46 |

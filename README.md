@@ -180,7 +180,6 @@ Decks used in the face-to-face class (`lecture_sd/`), each in English and Korean
 | SVM — Margin and Objective | Week 7 | [EN](lecture_sd/W07_SVM_Margin_Objective_EN.pdf) · [KR](lecture_sd/W07_SVM_Margin_Objective_KR.pdf) | 18 |
 | Decision Trees and Ensembles | Week 7 | [EN](lecture_sd/W07_Decision_Trees_and_Ensembles_EN.pdf) · [KR](lecture_sd/W07_Decision_Trees_and_Ensembles_KR.pdf) | 149 |
 | Advanced Tree Models | Week 7 | [EN](lecture_sd/W07_Advanced_Tree_Models_EN.pdf) · [KR](lecture_sd/W07_Advanced_Tree_Models_KR.pdf) | 86 |
-| Advanced Gradient Boosting | Week 7 | [EN](lecture_sd/W07_Advanced_Gradient_Boosting_EN.pdf) · [KR](lecture_sd/W07_Advanced_Gradient_Boosting_KR.pdf) | 86 |
 | Neural Network Foundations | Week 8 | [EN](lecture_sd/W08_Neural_Network_Foundations_EN.pdf) · [KR](lecture_sd/W08_Neural_Network_Foundations_KR.pdf) | 35 |
 | Trees, Neural Networks and Unsupervised Learning — Cheat Sheet | Weeks 7–9 | [EN](lecture_sd/W09_Cheat_Sheet_W07-W09_EN.pdf) · [KR](lecture_sd/W09_Cheat_Sheet_W07-W09_KR.pdf) | 38 |
 | Honest Backtesting (Extended) | Week 10 | [EN](lecture_sd/W10_Honest_Backtesting_Extended_EN.pdf) · [KR](lecture_sd/W10_Honest_Backtesting_Extended_KR.pdf) | 34 |

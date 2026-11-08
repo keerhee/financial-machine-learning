@@ -183,7 +183,7 @@ Decks used in the face-to-face class (`lecture_sd/`), each in English and Korean
 | Advanced Gradient Boosting | Week 7 | [EN](lecture_sd/W07_Advanced_Gradient_Boosting_EN.pdf) · [KR](lecture_sd/W07_Advanced_Gradient_Boosting_KR.pdf) | 86 |
 | Neural Network Foundations | Week 8 | [EN](lecture_sd/W08_Neural_Network_Foundations_EN.pdf) · [KR](lecture_sd/W08_Neural_Network_Foundations_KR.pdf) | 35 |
 | Trees, Neural Networks and Unsupervised Learning — Cheat Sheet | Weeks 7–9 | [EN](lecture_sd/W09_Cheat_Sheet_W07-W09_EN.pdf) · [KR](lecture_sd/W09_Cheat_Sheet_W07-W09_KR.pdf) | 38 |
-| Unsupervised Learning — Group, Compress, Clean | Week 9 | [EN](lecture_sd/W09_Unsupervised_Learning_EN.pdf) · KR in preparation | 44 |
+| Unsupervised Learning — Group, Compress, Clean | Week 9 | [EN](lecture_sd/W09_Unsupervised_Learning_EN.pdf) · [KR](lecture_sd/W09_Unsupervised_Learning_KR.pdf) (figure labels in English) | 44 |
 | Honest Backtesting | Week 10 | [EN](lecture_sd/W10_Honest_Backtesting_EN.pdf) · [KR](lecture_sd/W10_Honest_Backtesting_KR.pdf) | 21 |
 | Honest Backtesting — Workbook | Week 10 | [EN](lecture_sd/W10_Honest_Backtesting_Workbook_EN.pdf) · [KR](lecture_sd/W10_Honest_Backtesting_Workbook_KR.pdf) | 5 |
 | Honest Backtesting (Extended) | Week 10 | [EN](lecture_sd/W10_Honest_Backtesting_Extended_EN.pdf) · [KR](lecture_sd/W10_Honest_Backtesting_Extended_KR.pdf) | 34 |

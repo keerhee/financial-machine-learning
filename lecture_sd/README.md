@@ -20,6 +20,11 @@ Decks used in the face-to-face class, each in English and Korean. `W07` is the t
 | Honest Backtesting (Extended) — Workbook | Week 10 | [EN](W10_Honest_Backtesting_Workbook_Extended_EN.pdf) · [KR](W10_Honest_Backtesting_Workbook_Extended_KR.pdf) | 9 |
 | Meta-Labeling | Week 10 | [EN](W10_Meta_Labeling_EN.pdf) · [KR](W10_Meta_Labeling_KR.pdf) | 46 |
 | Model Validation and Ensembles | Week 10 | [EN](W10_Model_Validation_and_Ensembles_EN.pdf) · [KR](W10_Model_Validation_and_Ensembles_KR.pdf) | 48 |
+| Meta-Labeling Lab — Side, Probability, Kelly Size | Week 11 | [EN](W11_Meta_Labeling_Lab_EN.pdf) · KR in preparation | 33 |
+| Unsupervised Learning Step by Step (Basic) | Week 11 | [EN](W11_Unsupervised_Learning_Step_by_Step_EN.pdf) · KR in preparation | 90 |
+| Choosing ε and Perplexity — Supplement | Week 11 | [EN](W11_Choosing_Epsilon_and_Perplexity_EN.pdf) · KR in preparation | 19 |
+| Hierarchical Risk Parity — Four Assets Step by Step | Week 11 | [EN](W11_HRP_Four_Asset_Step_by_Step_EN.pdf) · KR in preparation | 39 |
+| Nested Clustered Optimization — Four Assets Step by Step | Week 11 | [EN](W11_NCO_Four_Asset_Step_by_Step_EN.pdf) · KR in preparation | 35 |
 | Portfolio Construction | Week 11 | [EN](W11_Portfolio_Construction_EN.pdf) · [KR](W11_Portfolio_Construction_KR.pdf) | 22 |
 | Portfolio Construction — Workbook | Week 11 | [EN](W11_Portfolio_Construction_Workbook_EN.pdf) · [KR](W11_Portfolio_Construction_Workbook_KR.pdf) | 6 |
 | NLP · LLM · RAG | Week 12 | [EN](W12_NLP_LLM_RAG_EN.pdf) · [KR](W12_NLP_LLM_RAG_KR.pdf) | 22 |

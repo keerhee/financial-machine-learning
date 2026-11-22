@@ -39,6 +39,7 @@ sources are excluded by `.gitignore`.
 | [`special_sessions/`](special_sessions/) | Four optional sessions outside the sixteen units, each a deck and a companion note |
 | [`supplementary/`](supplementary/) | Supplementary packages beside the units — a deck (with its data and notebook for the KOSPI labs), in English and Korean |
 | [`lecture_sd/`](lecture_sd/) | In-class decks — the decks and workbooks used in the face-to-face class (Weeks 7–16 and special topics), in English and Korean |
+| [`late_term_lectures/`](late_term_lectures/) | Additional late-term decks and workbooks (PCA and autoencoders, HRP vs 1/N and MVO, NLP·LLM·RAG, recommender systems, reinforcement learning), in English |
 | [`midterm/`](midterm/) | Midterm practice set (units 1–7, 48 questions), its answer key, and a cheat sheet |
 | [`final_project/`](final_project/) | Final project — the brief for the eight team projects and a pre-study to read before choosing one, in English and Korean |
 | [`site/`](site/) | The GitHub Pages listing page (`index.html`, one file) |

@@ -211,8 +211,9 @@ Decks used in the face-to-face class (`lecture_sd/`), each in English and Korean
 | Explainable ML — Shapley Values and SHAP (Short Lecture) | Week 14 | [EN](lecture_sd/W14_XAI_SHAP_Short_Lecture_EN.pdf) · [KR](lecture_sd/W14_XAI_SHAP_Short_Lecture_KR.pdf) | 24 |
 | Fairness in Financial AI | Week 14 | [EN](lecture_sd/W14_Fairness_Financial_AI_EN.pdf) · [KR](lecture_sd/W14_Fairness_Financial_AI_KR.pdf) | 58 |
 | Fairness in Financial AI — Workbook | Week 14 | [EN](lecture_sd/W14_Fairness_Financial_AI_Workbook_EN.pdf) · [KR](lecture_sd/W14_Fairness_Financial_AI_Workbook_KR.pdf) | 14 |
-| TFT · GNN · Agents | Week 15 | [EN](lecture_sd/W15_TFT_GNN_Agents_EN.pdf) · [KR](lecture_sd/W15_TFT_GNN_Agents_KR.pdf) | 21 |
-| TFT · GNN · Agents — Workbook | Week 15 | [EN](lecture_sd/W15_TFT_GNN_Agents_Workbook_EN.pdf) · [KR](lecture_sd/W15_TFT_GNN_Agents_Workbook_KR.pdf) | 6 |
+| Causal Inference and Finance | Week 14 | [EN](lecture_sd/W14_Causal_Inference_Finance_EN.pdf) · [KR](lecture_sd/W14_Causal_Inference_Finance_KR.pdf) | 84 |
+| GNN · Agents | Week 15 | [EN](lecture_sd/W15_GNN_Agents_EN.pdf) · [KR](lecture_sd/W15_GNN_Agents_KR.pdf) | 17 |
+| GNN · Agents — Workbook | Week 15 | [EN](lecture_sd/W15_GNN_Agents_Workbook_EN.pdf) · [KR](lecture_sd/W15_GNN_Agents_Workbook_KR.pdf) | 5 |
 | Integration and Final Project | Week 16 | [EN](lecture_sd/W16_Integration_Final_Project_EN.pdf) · [KR](lecture_sd/W16_Integration_Final_Project_KR.pdf) | 20 |
 | Integration and Final Project — Workbook | Week 16 | [EN](lecture_sd/W16_Integration_Final_Project_Workbook_EN.pdf) · [KR](lecture_sd/W16_Integration_Final_Project_Workbook_KR.pdf) | 5 |
 | Privacy-Preserving Machine Learning (PPML) | Special | [EN](lecture_sd/Special_PPML_Privacy_Preserving_ML_EN.pdf) · [KR](lecture_sd/Special_PPML_Privacy_Preserving_ML_KR.pdf) | 64 |
